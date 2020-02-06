@@ -1,0 +1,10 @@
+.Navigation {
+    list-style: none;
+    display: flex;
+    padding: 1em 0;
+    margin: 0;
+    background: #0e2f44;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

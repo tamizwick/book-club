@@ -1,0 +1,13 @@
+.NavItem {
+    margin-left: 1em;
+    padding: .5em;
+}
+
+.NavItem a {
+    color: #ecebE4;
+    text-decoration: none;
+}
+
+.NavItem a.active {
+    border-bottom: 2px solid #ecebE4;
+}
