@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import classes from './CurrentCarousel.module.css';
 import axios from 'axios';
+import Carousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 class CurrentCarousel extends Component {
     state = {
@@ -18,18 +20,40 @@ class CurrentCarousel extends Component {
                         id: key
                     });
                 }
-                currentBooks.sort((a, b) => {
-                    if (a.id < b.id) {
-                        return -1
-                    }
-                    if (a.id > b.id) {
-                        return 1
-                    }
-                    return 0
-                });
-                this.setState({
-                    currentBooks: currentBooks,
-                    loading: false
+
+                return currentBooks;
+            })
+            .then((currentBooks) => {
+                const imageLinks = [];
+                currentBooks.map((book) => {
+                    const googleBookInfo = `https://www.googleapis.com/books/v1/volumes?q=isbn:${book.isbn}`;
+                    return axios.get(googleBookInfo)
+                        .then((res) => {
+                            if (res.data.items && res.data.items.length) {
+                                imageLinks.push({
+                                    ...book,
+                                    imageLink: res.data.items[0].volumeInfo.imageLinks.thumbnail
+                                });
+                            } else {
+                                imageLinks.push({
+                                    ...book,
+                                    imageLink: 'nada'
+                                });
+                            }
+                            imageLinks.sort((a, b) => {
+                                if (a.id < b.id) {
+                                    return -1;
+                                }
+                                if (a.id > b.id) {
+                                    return 1;
+                                }
+                                return 0;
+                            });
+                            this.setState({
+                                currentBooks: imageLinks,
+                                loading: false
+                            });
+                        });
                 });
             })
             .catch((err) => {
@@ -39,18 +63,35 @@ class CurrentCarousel extends Component {
 
     render() {
         const books = this.state.currentBooks.map((book) => {
-            const url = `http://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`;
+            let url = book.imageLink;
             return (
-                <div key={book.isbn} style={{ margin: '0 1em' }}>
-                    <img src={url} alt={`${book.title} cover`} />
-                    <p>{book.title} by {book.author}</p>
-                </div>
+                <img
+                    key={book.isbn}
+                    src={url}
+                    alt={`${book.title} cover`}
+                    className={classes.cover} />
             );
-        })
+        });
+
+
+        const responsive = {
+            0: {
+                items: 1
+            },
+            500: {
+                items: 3
+            },
+            1024: {
+                items: 5
+            }
+        };
+
         return (
-            <div className={classes.CurrentCarousel}>
-                {books}
-            </div>
+            <Carousel
+                mouseTrackingEnabled
+                items={books}
+                responsive={responsive}
+                infinite={false} />
         );
     }
 }
