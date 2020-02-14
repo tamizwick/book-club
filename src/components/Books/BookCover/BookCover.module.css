@@ -2,3 +2,7 @@
     height: 280px;
     width: 180px;
 }
+
+figcaption {
+    text-align: center;
+}

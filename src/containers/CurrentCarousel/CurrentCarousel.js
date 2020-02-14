@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import classes from './CurrentCarousel.module.css';
 import axios from 'axios';
 import Carousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
