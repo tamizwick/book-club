@@ -4,9 +4,11 @@ import NavItem from './NavItem/NavItem';
 
 const navigation = (props) => {
     return (
-        <ul className={classes.Navigation}>
-            <NavItem to='/' exact>Home</NavItem>
-        </ul>
+        <nav>
+            <ul className={classes.Navigation}>
+                <NavItem to='/' exact>Home</NavItem>
+            </ul>
+        </nav>
     );
 }
 

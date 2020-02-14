@@ -1,7 +1,23 @@
+.heading {
+    background-image: url('../../assets/burnBook.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10em;
+    margin-top: 4em;
+    padding: 1em 3em;
+}
+
 .homepageHeader {
-    color: #0e2f44;
+    color: #800000;
 }
 
 .main {
-    margin: 5em 2em 0;
+    margin: 3em 2em 0;
+}
+
+@media all and (max-width: 500px) {
+    .heading {
+        background-size: 35em 20em;
+    }
 }

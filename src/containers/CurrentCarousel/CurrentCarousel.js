@@ -3,6 +3,7 @@ import classes from './CurrentCarousel.module.css';
 import axios from 'axios';
 import Carousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import BookCover from '../../components/Books/BookCover/BookCover';
 
 class CurrentCarousel extends Component {
     state = {
@@ -14,6 +15,7 @@ class CurrentCarousel extends Component {
         axios.get('https://fd-book-club.firebaseio.com/books.json?orderBy="round"&equalTo="wanna-read-it books"')
             .then((res) => {
                 const currentBooks = [];
+                const transformedCurrentBooks = [];
                 for (let key in res.data) {
                     currentBooks.push({
                         ...res.data[key],
@@ -21,26 +23,22 @@ class CurrentCarousel extends Component {
                     });
                 }
 
-                return currentBooks;
-            })
-            .then((currentBooks) => {
-                const imageLinks = [];
                 currentBooks.map((book) => {
                     const googleBookInfo = `https://www.googleapis.com/books/v1/volumes?q=isbn:${book.isbn}`;
                     return axios.get(googleBookInfo)
                         .then((res) => {
                             if (res.data.items && res.data.items.length) {
-                                imageLinks.push({
+                                transformedCurrentBooks.push({
                                     ...book,
                                     imageLink: res.data.items[0].volumeInfo.imageLinks.thumbnail
                                 });
                             } else {
-                                imageLinks.push({
+                                transformedCurrentBooks.push({
                                     ...book,
-                                    imageLink: 'nada'
+                                    imageLink: './assets/noImageAvailable.png'
                                 });
                             }
-                            imageLinks.sort((a, b) => {
+                            transformedCurrentBooks.sort((a, b) => {
                                 if (a.id < b.id) {
                                     return -1;
                                 }
@@ -50,9 +48,12 @@ class CurrentCarousel extends Component {
                                 return 0;
                             });
                             this.setState({
-                                currentBooks: imageLinks,
+                                currentBooks: transformedCurrentBooks,
                                 loading: false
                             });
+                        })
+                        .catch((err) => {
+                            console.log(err);
                         });
                 });
             })
@@ -63,13 +64,8 @@ class CurrentCarousel extends Component {
 
     render() {
         const books = this.state.currentBooks.map((book) => {
-            let url = book.imageLink;
             return (
-                <img
-                    key={book.isbn}
-                    src={url}
-                    alt={`${book.title} cover`}
-                    className={classes.cover} />
+                <BookCover book={book} />
             );
         });
 
