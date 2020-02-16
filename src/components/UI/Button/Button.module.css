@@ -1,11 +1,11 @@
 .btn-primary {
     background: #09814A;
     color: #fff;
+    cursor:pointer;
     border: 0;
+    border-radius: .25em;
     box-shadow: 0;
     padding: .5em;
-    border-radius: .25em;
-    cursor:pointer;
 }
 
 .btn-primary:hover {

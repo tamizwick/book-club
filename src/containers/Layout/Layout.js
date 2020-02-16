@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import classes from './Layout.module.css';
 import * as actionTypes from '../../store/actions/actionTypes';
 import Login from '../Login/Login';
+import Logout from '../Logout/Logout';
 import Homepage from '../../components/Homepage/Homepage';
 
 class Layout extends Component {
@@ -27,7 +28,7 @@ class Layout extends Component {
         if (this.props.token !== null) {
             routes = (
                 <Switch>
-                    <Route path='/login' component={Login} />
+                    <Route path='/logout' component={Logout} />
                     <Route path='/' exact component={Homepage} />
                     <Redirect to='/' />
                 </Switch>
