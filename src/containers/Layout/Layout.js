@@ -2,10 +2,21 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import classes from './Layout.module.css';
+import * as actionTypes from '../../store/actions/actionTypes';
 import Login from '../Login/Login';
 import Homepage from '../../components/Homepage/Homepage';
 
 class Layout extends Component {
+    componentDidMount() {
+        const token = localStorage.getItem('token');
+        const expirationDate = new Date(localStorage.getItem('expDate'));
+        if (expirationDate <= new Date()) {
+            this.props.onLogout();
+        } else if (token && token.length) {
+            this.props.onLogin(token, expirationDate);
+        }
+    }
+
     render() {
         let routes = (
             <Switch>
@@ -37,4 +48,15 @@ const mapStateToProps = (state) => {
     };
 };
 
-export default connect(mapStateToProps)(Layout);
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onLogin: (idToken, expirationDate) => dispatch({
+            type: actionTypes.STORE_TOKEN,
+            idToken: idToken,
+            expirationDate: expirationDate
+        }),
+        onLogout: () => dispatch({ type: actionTypes.LOGOUT })
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Layout);

@@ -40,7 +40,8 @@ class Login extends Component {
         };
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.REACT_APP_FIREBASE_API}`, authData)
             .then((res) => {
-                this.props.onLogin(res.data.idToken);
+                const expirationDate = new Date(new Date().getTime() + res.data.expiresIn * 1000);
+                this.props.onLogin(res.data.idToken, expirationDate);
             })
             .catch((err) => {
                 console.log(err)
@@ -68,14 +69,18 @@ class Login extends Component {
                         </Input>
                     );
                 })}
-                <Button>Submit</Button>
+                <Button btnClass='btn-primary'>Submit</Button>
             </form>
         );
         if (this.props.token !== null) {
             form = <Redirect to='/' />;
         }
 
-        return form;
+        return (
+            <main className="main">
+                {form}
+            </main>
+        );
     }
 }
 
@@ -87,7 +92,11 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onLogin: (idToken) => dispatch({ type: actionTypes.STORE_TOKEN, idToken: idToken })
+        onLogin: (idToken, expirationDate) => dispatch({
+            type: actionTypes.STORE_TOKEN,
+            idToken: idToken,
+            expirationDate: expirationDate
+        })
     };
 };
 
