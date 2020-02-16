@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './App.module.css';
 import Navigation from './components/Navigation/Navigation';
-import Layout from './components/Layout/Layout';
+import Layout from './containers/Layout/Layout';
 
 class App extends Component {
   render() {

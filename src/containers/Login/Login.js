@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 import * as actionTypes from '../../store/actions/actionTypes';
 import Input from '../../components/UI/Input/Input';
@@ -39,7 +40,6 @@ class Login extends Component {
         };
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.REACT_APP_FIREBASE_API}`, authData)
             .then((res) => {
-                console.log(res.data);
                 this.props.onLogin(res.data.idToken);
             })
             .catch((err) => {
@@ -56,7 +56,7 @@ class Login extends Component {
             });
         }
 
-        return (
+        let form = (
             <form onSubmit={this.submitHandler}>
                 {formElements.map((el) => {
                     return (
@@ -71,8 +71,19 @@ class Login extends Component {
                 <Button>Submit</Button>
             </form>
         );
+        if (this.props.token !== null) {
+            form = <Redirect to='/' />;
+        }
+
+        return form;
     }
 }
+
+const mapStateToProps = (state) => {
+    return {
+        token: state.token
+    };
+};
 
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -80,4 +91,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default connect(null, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
