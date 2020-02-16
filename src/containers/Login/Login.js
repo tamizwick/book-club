@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import axios from 'axios';
+import * as actionTypes from '../../store/actions/actionTypes';
 import Input from '../../components/UI/Input/Input';
 import Button from '../../components/UI/Button/Button';
 
@@ -38,6 +40,7 @@ class Login extends Component {
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.REACT_APP_FIREBASE_API}`, authData)
             .then((res) => {
                 console.log(res.data);
+                this.props.onLogin(res.data.idToken);
             })
             .catch((err) => {
                 console.log(err)
@@ -61,7 +64,7 @@ class Login extends Component {
                             key={el.key}
                             type={el.key}
                             changed={(event) => this.inputHandler(event, el)}>
-                            {el.key.toUpperCase()}
+                            {el.key}
                         </Input>
                     );
                 })}
@@ -71,4 +74,10 @@ class Login extends Component {
     }
 }
 
-export default Login;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onLogin: (idToken) => dispatch({ type: actionTypes.STORE_TOKEN, idToken: idToken })
+    };
+};
+
+export default connect(null, mapDispatchToProps)(Login);

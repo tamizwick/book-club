@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import axios from 'axios';
 import Carousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -11,7 +12,7 @@ class CurrentCarousel extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://fd-book-club.firebaseio.com/books.json?orderBy="round"&equalTo="wanna-read-it books"')
+        axios.get(`https://fd-book-club.firebaseio.com/books.json?orderBy="round"&equalTo="wanna-read-it books"&auth=${this.props.token}`)
             .then((res) => {
                 const currentBooks = [];
                 const transformedCurrentBooks = [];
@@ -91,4 +92,10 @@ class CurrentCarousel extends Component {
     }
 }
 
-export default CurrentCarousel;
+const mapStateToProps = (state) => {
+    return {
+        token: state.token
+    };
+};
+
+export default connect(mapStateToProps)(CurrentCarousel);
