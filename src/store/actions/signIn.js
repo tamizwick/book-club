@@ -1,6 +1,6 @@
 import * as actionTypes from './actionTypes';
 
-export const login = (idToken, expirationDate) => {
+export const signIn = (idToken, expirationDate) => {
     return {
         type: actionTypes.STORE_TOKEN,
         idToken: idToken,

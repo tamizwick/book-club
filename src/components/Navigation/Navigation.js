@@ -7,12 +7,13 @@ const navigation = (props) => {
     return (
         <nav>
             <ul className={classes.Navigation}>
-                {props.location.pathname !== '/login'
+                {props.location.pathname !== '/signin'
                     ? <Fragment>
                         <NavItem to='/' exact>Home</NavItem>
+                        <NavItem to='/admin'>Admin</NavItem>
                         <NavItem to='/logout' exact>Logout</NavItem>
                     </Fragment>
-                    : <NavItem to='/login' exact>Login</NavItem>}
+                    : <NavItem to='/signin' exact>Sign In</NavItem>}
             </ul>
         </nav>
     );

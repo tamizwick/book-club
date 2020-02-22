@@ -1,40 +1,45 @@
 import React, { Component } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import classes from './Layout.module.css';
 import * as actionTypes from '../../store/actions/actionTypes';
-import Login from '../Login/Login';
+import SignIn from '../SignIn/SignIn';
 import Logout from '../Logout/Logout';
 import Homepage from '../../components/Homepage/Homepage';
+import Admin from '../../components/Admin/Admin';
+import NewUser from '../NewUser/NewUser';
 
 class Layout extends Component {
-    componentDidMount() {
+    constructor(props) {
+        super(props);
         const token = localStorage.getItem('token');
         const expirationDate = new Date(localStorage.getItem('expDate'));
         if (expirationDate <= new Date()) {
             this.props.onLogout();
         } else if (token && token.length) {
-            this.props.onLogin(token, expirationDate);
+            this.props.onSignIn(token, expirationDate);
         }
     }
 
     render() {
         let routes = (
             <Switch>
-                <Route path='/login' component={Login} />
-                <Redirect to='/login' />
+                <Route path='/signin' component={SignIn} />
+                <Redirect to='/signin' />
             </Switch>
         );
         if (this.props.token !== null) {
             routes = (
                 <Switch>
+                    <Route path='/admin/new-user' component={NewUser} />
+                    <Route path='/admin/change-password' component={Homepage} />
+                    <Route path='/admin' component={Admin} />
                     <Route path='/logout' component={Logout} />
                     <Route path='/' exact component={Homepage} />
                     <Redirect to='/' />
                 </Switch>
             );
         }
-
         return (
             <div className={classes.layout}>
                 {routes}
@@ -51,7 +56,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onLogin: (idToken, expirationDate) => dispatch({
+        onSignIn: (idToken, expirationDate) => dispatch({
             type: actionTypes.STORE_TOKEN,
             idToken: idToken,
             expirationDate: expirationDate
@@ -60,4 +65,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Layout);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Layout));

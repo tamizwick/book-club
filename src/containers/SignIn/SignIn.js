@@ -6,9 +6,9 @@ import * as actionTypes from '../../store/actions/actionTypes';
 import Input from '../../components/UI/Input/Input';
 import Button from '../../components/UI/Button/Button';
 
-class Login extends Component {
+class SignIn extends Component {
     state = {
-        loginForm: {
+        signInForm: {
             email: {
                 value: ''
             },
@@ -19,14 +19,15 @@ class Login extends Component {
     }
 
     inputHandler = (event, inputElement) => {
-        this.setState({
-            loginForm: {
-                ...this.state.loginForm,
-                [inputElement.key]: {
-                    ...inputElement,
-                    value: event.target.value
-                }
+        const signInForm = {
+            ...this.state.signInForm,
+            [inputElement.key]: {
+                ...inputElement,
+                value: event.target.value
             }
+        };
+        this.setState({
+            signInForm: signInForm
         });
     }
 
@@ -34,14 +35,14 @@ class Login extends Component {
         event.preventDefault();
 
         const authData = {
-            email: this.state.loginForm.email.value,
-            password: this.state.loginForm.password.value,
+            email: this.state.signInForm.email.value,
+            password: this.state.signInForm.password.value,
             returnSecureToken: true
         };
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.REACT_APP_FIREBASE_API}`, authData)
             .then((res) => {
                 const expirationDate = new Date(new Date().getTime() + res.data.expiresIn * 1000);
-                this.props.onLogin(res.data.idToken, expirationDate);
+                this.props.onSignIn(res.data.idToken, expirationDate);
             })
             .catch((err) => {
                 console.log(err)
@@ -50,10 +51,10 @@ class Login extends Component {
 
     render() {
         const formElements = [];
-        for (let key in this.state.loginForm) {
+        for (let key in this.state.signInForm) {
             formElements.push({
                 key: key,
-                value: this.state.loginForm[key].value
+                value: this.state.signInForm[key].value
             });
         }
 
@@ -78,6 +79,7 @@ class Login extends Component {
 
         return (
             <main className="main">
+                <h2>Sign In</h2>
                 {form}
             </main>
         );
@@ -92,7 +94,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onLogin: (idToken, expirationDate) => dispatch({
+        onSignIn: (idToken, expirationDate) => dispatch({
             type: actionTypes.STORE_TOKEN,
             idToken: idToken,
             expirationDate: expirationDate
@@ -100,4 +102,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(SignIn);

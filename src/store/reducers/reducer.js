@@ -1,8 +1,8 @@
 import * as actionTypes from '../actions/actionTypes';
 
 const initialState = {
-    token: null,
-    expirationDate: null
+    token: localStorage.getItem('token'),
+    expirationDate: localStorage.getItem('expDate')
 };
 
 const reducer = (state = initialState, action) => {
