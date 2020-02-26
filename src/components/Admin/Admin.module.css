@@ -1,0 +1,15 @@
+.btnContainer {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 25%;
+    box-shadow: 2px 3px 8px #a8aec1;
+    padding: 1em;
+    border-radius: .2em;
+    margin: 1em;
+}
+
+.containerHeader {
+    text-align: center;
+    color: #800000;
+    margin: .5em;
+}

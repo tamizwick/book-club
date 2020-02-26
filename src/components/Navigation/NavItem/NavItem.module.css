@@ -1,13 +1,23 @@
 .NavItem {
     margin-left: 1em;
-    padding: .5em;
+    padding: 1.5em 0;
 }
+
+.NavItem:first-child {
+    margin-left: 0;
+}
+
 
 .NavItem a {
     color: #ecebE4;
     text-decoration: none;
+    padding: 1.5em .5em;
+}
+
+.NavItem a:hover {
+    background: #0c2a3d;
 }
 
 .NavItem a.active {
-    border-bottom: 2px solid #ecebE4;
+    text-decoration: underline;
 }
