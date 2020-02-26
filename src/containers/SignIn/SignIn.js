@@ -3,17 +3,18 @@ import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 import * as actionTypes from '../../store/actions/actionTypes';
-import Input from '../../components/UI/Input/Input';
-import Button from '../../components/UI/Button/Button';
+import Form from '../../components/UI/Form/Form';
 
 class SignIn extends Component {
     state = {
         signInForm: {
             email: {
-                value: ''
+                value: '',
+                type: 'email'
             },
             password: {
-                value: ''
+                value: '',
+                type: 'password'
             }
         }
     }
@@ -42,7 +43,7 @@ class SignIn extends Component {
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.REACT_APP_FIREBASE_API}`, authData)
             .then((res) => {
                 const expirationDate = new Date(new Date().getTime() + res.data.expiresIn * 1000);
-                this.props.onSignIn(res.data.idToken, expirationDate);
+                this.props.onSignIn(res.data.idToken, expirationDate, res.data.email);
             })
             .catch((err) => {
                 console.log(err)
@@ -54,24 +55,16 @@ class SignIn extends Component {
         for (let key in this.state.signInForm) {
             formElements.push({
                 key: key,
-                value: this.state.signInForm[key].value
+                value: this.state.signInForm[key].value,
+                type: this.state.signInForm[key].type
             });
         }
 
         let form = (
-            <form onSubmit={this.submitHandler}>
-                {formElements.map((el) => {
-                    return (
-                        <Input
-                            key={el.key}
-                            type={el.key}
-                            changed={(event) => this.inputHandler(event, el)}>
-                            {el.key}
-                        </Input>
-                    );
-                })}
-                <Button btnClass='btn-primary'>Submit</Button>
-            </form>
+            <Form
+                submitHandler={this.submitHandler}
+                formElements={formElements}
+                inputHandler={this.inputHandler} />
         );
         if (this.props.token !== null) {
             form = <Redirect to='/' />;
@@ -94,10 +87,11 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onSignIn: (idToken, expirationDate) => dispatch({
+        onSignIn: (idToken, expirationDate, emailAddress) => dispatch({
             type: actionTypes.STORE_TOKEN,
             idToken: idToken,
-            expirationDate: expirationDate
+            expirationDate: expirationDate,
+            emailAddress: emailAddress
         })
     };
 };

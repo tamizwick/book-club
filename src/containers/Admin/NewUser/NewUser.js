@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import classes from './NewUser.module.css';
-import * as utility from '../../utility/utility';
-import Input from '../../components/UI/Input/Input';
-import Button from '../../components/UI/Button/Button';
+import * as utility from '../../../utility/utility';
+import Form from '../../../components/UI/Form/Form';
 
 class NewUser extends Component {
     state = {
@@ -27,11 +26,10 @@ class NewUser extends Component {
             }
         },
         validationErrors: {},
-        signInMessage: ''
+        message: ''
     }
 
-    inputHandler = (event, inputElement) => {
-        this.checkValidity(event, inputElement);
+    inputHandler = (event, inputElement, valErrors) => {
         const newUserForm = {
             ...this.state.newUserForm,
             [inputElement.key]: {
@@ -40,53 +38,21 @@ class NewUser extends Component {
             }
         };
         this.setState({
-            newUserForm: newUserForm
+            newUserForm: newUserForm,
+            validationErrors: utility.checkValidity(event, inputElement, valErrors)
         }, () => {
             if (inputElement.type === 'password') {
-                this.matchPasswords('inputHandler');
+                this.setState({
+                    validationErrors: utility.matchPasswords('inputHandler', this.state.newUserForm.password.value, this.state.newUserForm.confirm_Password.value, this.state.validationErrors)
+                });
             }
         });
-    }
-
-    checkValidity = (event, inputElement) => {
-        let isValid = true;
-        const fieldName = utility.capitalizeString(inputElement.key.replace('_', ' '));
-        const validationErrors = {
-            ...this.state.validationErrors,
-            [inputElement.key]: []
-        };
-        if (inputElement.validationRules.minLength) {
-            isValid = event.target.value.length >= inputElement.validationRules.minLength;
-            if (!isValid) {
-                validationErrors[inputElement.key].push(`${fieldName} must be ${inputElement.validationRules.minLength} characters.`)
-            }
-        }
-        this.setState({
-            validationErrors: validationErrors
-        })
-    }
-
-    matchPasswords = (method) => {
-        if (method === 'inputHandler') {
-            const validationErrors = {
-                ...this.state.validationErrors,
-                passwordMatch: []
-            };
-            if (this.state.newUserForm.password.value !== this.state.newUserForm.confirm_Password.value) {
-                validationErrors.passwordMatch.push(`Passwords must match.`);
-            }
-            this.setState({
-                validationErrors: validationErrors
-            })
-        } else if (method === 'submitHandler') {
-            return this.state.newUserForm.password.value === this.state.newUserForm.confirm_Password.value;
-        }
     }
 
     submitHandler = (event) => {
         event.preventDefault();
 
-        if (!this.matchPasswords('submitHandler')) {
+        if (!utility.matchPasswords('submitHandler', this.state.newUserForm.password.value, this.state.newUserForm.confirm_Password.value)) {
             return null;
         }
         const signInData = {
@@ -97,13 +63,13 @@ class NewUser extends Component {
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${process.env.REACT_APP_FIREBASE_API}`, signInData)
             .then((res) => {
                 this.setState({
-                    signInMessage: `User ${res.data.email} has been created.`
+                    message: `User ${res.data.email} has been created.`
                 });
             })
             .catch((error) => {
                 console.log(error)
                 this.setState({
-                    signInMessage: `${error}`
+                    message: `${error}`
                 });
             });
     }
@@ -121,19 +87,12 @@ class NewUser extends Component {
         }
 
         let form = (
-            <form onSubmit={this.submitHandler}>
-                {formElements.map((el) => {
-                    return (
-                        <Input
-                            key={el.key}
-                            type={el.type}
-                            changed={(event) => this.inputHandler(event, el)}>
-                            {el.key.replace('_', ' ')}
-                        </Input>
-                    );
-                })}
-                <Button btnClass='btn-primary'>Submit</Button>
-            </form>
+            <Form
+                submitHandler={this.submitHandler}
+                formElements={formElements}
+                inputHandler={this.inputHandler}
+                validationErrors={this.state.validationErrors} />
+
         );
 
         for (let key in this.state.validationErrors) {
@@ -147,7 +106,7 @@ class NewUser extends Component {
                 <h2>Create New User</h2>
                 {form}
                 {errors}
-                <p>{this.state.signInMessage}</p>
+                <p>{this.state.message}</p>
             </main>
         );
     }

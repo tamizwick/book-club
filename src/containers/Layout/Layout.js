@@ -7,17 +7,19 @@ import SignIn from '../SignIn/SignIn';
 import Logout from '../Logout/Logout';
 import Homepage from '../../components/Homepage/Homepage';
 import Admin from '../../components/Admin/Admin';
-import NewUser from '../NewUser/NewUser';
+import NewUser from '../../containers/Admin/NewUser/NewUser';
+import ChangePassword from '../Admin/ChangePassword/ChangePassword';
 
 class Layout extends Component {
     constructor(props) {
         super(props);
         const token = localStorage.getItem('token');
         const expirationDate = new Date(localStorage.getItem('expDate'));
+        const emailAddress = localStorage.getItem('emailAddress');
         if (expirationDate <= new Date()) {
             this.props.onLogout();
         } else if (token && token.length) {
-            this.props.onSignIn(token, expirationDate);
+            this.props.onSignIn(token, expirationDate, emailAddress);
         }
     }
 
@@ -32,7 +34,7 @@ class Layout extends Component {
             routes = (
                 <Switch>
                     <Route path='/admin/new-user' component={NewUser} />
-                    <Route path='/admin/change-password' component={Homepage} />
+                    <Route path='/admin/change-password' component={ChangePassword} />
                     <Route path='/admin' component={Admin} />
                     <Route path='/logout' component={Logout} />
                     <Route path='/' exact component={Homepage} />
@@ -56,10 +58,11 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onSignIn: (idToken, expirationDate) => dispatch({
+        onSignIn: (idToken, expirationDate, emailAddress) => dispatch({
             type: actionTypes.STORE_TOKEN,
             idToken: idToken,
-            expirationDate: expirationDate
+            expirationDate: expirationDate,
+            emailAddress: emailAddress
         }),
         onLogout: () => dispatch({ type: actionTypes.LOGOUT })
     };
