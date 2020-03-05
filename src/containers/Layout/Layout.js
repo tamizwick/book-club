@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
+import axios from 'axios';
 import classes from './Layout.module.css';
 import * as actionTypes from '../../store/actions/actionTypes';
 import SignIn from '../SignIn/SignIn';
 import Logout from '../Logout/Logout';
 import Homepage from '../../components/Homepage/Homepage';
+import AllBooks from '../AllBooks/AllBooks';
 import Admin from '../../components/Admin/Admin';
 import NewUser from '../../containers/Admin/NewUser/NewUser';
 import ChangePassword from '../Admin/ChangePassword/ChangePassword';
@@ -23,6 +25,16 @@ class Layout extends Component {
         }
     }
 
+    componentDidMount() {
+        axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
+            .then((res) => {
+                this.props.fetchBooks(res.data);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+    }
+
     render() {
         let routes = (
             <Switch>
@@ -33,6 +45,7 @@ class Layout extends Component {
         if (this.props.token !== null) {
             routes = (
                 <Switch>
+                    <Route path='/all-books' component={AllBooks} />
                     <Route path='/admin/new-user' component={NewUser} />
                     <Route path='/admin/change-password' component={ChangePassword} />
                     <Route path='/admin' component={Admin} />
@@ -52,7 +65,7 @@ class Layout extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        token: state.token
+        token: state.auth.token
     };
 };
 
@@ -64,7 +77,8 @@ const mapDispatchToProps = (dispatch) => {
             expirationDate: expirationDate,
             emailAddress: emailAddress
         }),
-        onLogout: () => dispatch({ type: actionTypes.LOGOUT })
+        onLogout: () => dispatch({ type: actionTypes.LOGOUT }),
+        fetchBooks: (allBooks) => dispatch({ type: actionTypes.FETCH_BOOKS, allBooks: allBooks })
     };
 };
 

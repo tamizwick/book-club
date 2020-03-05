@@ -125,8 +125,8 @@ class ChangePassword extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        token: state.token,
-        email: state.emailAddress
+        token: state.auth.token,
+        email: state.auth.emailAddress
     };
 };
 

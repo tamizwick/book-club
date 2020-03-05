@@ -1,0 +1,15 @@
+.allbooks {
+    border-collapse: collapse;
+}
+
+.allbooks th,
+.allbooks td {
+    border: 1px solid #000;
+    padding: .5em;
+}
+
+.allbooks th {
+    background: #800000;
+    color: #fff;
+    border-color: #fff;
+}

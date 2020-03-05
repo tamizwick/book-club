@@ -10,8 +10,9 @@ const navigation = (props) => {
                 {props.location.pathname !== '/signin'
                     ? <Fragment>
                         <NavItem to='/' exact>Home</NavItem>
+                        <NavItem to='/all-books'>All Books</NavItem>
                         <NavItem to='/admin'>Admin</NavItem>
-                        <NavItem to='/logout' exact>Logout</NavItem>
+                        <NavItem to='/logout'>Logout</NavItem>
                     </Fragment>
                     : <NavItem to='/signin' exact>Sign In</NavItem>}
             </ul>
