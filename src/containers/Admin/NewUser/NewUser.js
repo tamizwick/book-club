@@ -62,8 +62,25 @@ class NewUser extends Component {
         };
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${process.env.REACT_APP_FIREBASE_API}`, signInData)
             .then((res) => {
+                const newUserForm = {
+                    ...this.state.newUserForm,
+                    email: {
+                        ...this.state.newUserForm.email,
+                        value: ''
+                    },
+                    password: {
+                        ...this.state.newUserForm.password,
+                        value: ''
+                    },
+                    confirm_Password: {
+                        ...this.state.newUserForm.confirm_Password,
+                        value: ''
+                    }
+                };
+
                 this.setState({
-                    message: `User ${res.data.email} has been created.`
+                    message: `User ${res.data.email} has been created.`,
+                    newUserForm: newUserForm
                 });
             })
             .catch((error) => {
@@ -92,7 +109,6 @@ class NewUser extends Component {
                 formElements={formElements}
                 inputHandler={this.inputHandler}
                 validationErrors={this.state.validationErrors} />
-
         );
 
         for (let key in this.state.validationErrors) {

@@ -60,8 +60,21 @@ class ChangePassword extends Component {
         };
         axios.post(`https://identitytoolkit.googleapis.com/v1/accounts:update?key=${process.env.REACT_APP_FIREBASE_API}`, authData)
             .then((res) => {
+                const changePasswordForm = {
+                    ...this.state.changePasswordForm,
+                    password: {
+                        ...this.state.changePasswordForm.password,
+                        value: ''
+                    },
+                    confirm_Password: {
+                        ...this.state.changePasswordForm.confirm_Password,
+                        value: ''
+                    }
+                };
+
                 this.setState({
-                    message: `The password for ${res.data.email} has been changed.`
+                    message: `The password for ${res.data.email} has been changed.`,
+                    changePasswordForm: changePasswordForm
                 });
                 const expirationDate = new Date(new Date().getTime() + res.data.expiresIn * 1000);
                 this.props.onSignIn(res.data.idToken, expirationDate, res.data.email);

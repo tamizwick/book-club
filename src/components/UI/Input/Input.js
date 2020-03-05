@@ -13,6 +13,7 @@ const input = (props) => {
             <input
                 type={props.type}
                 name={props.label}
+                value={props.value}
                 onChange={props.changed} />
         </div>
     );
