@@ -25,6 +25,7 @@ class Layout extends Component {
         }
     }
 
+    // @TODO: Figure out why this isn't always working. Move it to AllBooks?
     componentDidMount() {
         axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
             .then((res) => {

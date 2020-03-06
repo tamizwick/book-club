@@ -12,4 +12,11 @@
     background: #800000;
     color: #fff;
     border-color: #fff;
+    cursor: pointer;
+}
+
+.allbooks .sorted:after {
+    content: '▼';
+    color: #fff;
+    margin-left: .25em;
 }

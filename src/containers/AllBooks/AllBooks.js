@@ -2,9 +2,41 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import classes from './AllBooks.module.css';
 
+// @TODO: Rework CurrentCarousel to get current books from state instead of api call
+// @TODO: Responsive navigation
+
 class AllBooks extends Component {
+    state = {
+        sortedBooks: []
+    }
+
+    componentDidUpdate() {
+        if (!this.state.sortedBooks.length) {
+            this.setState({
+                sortedBooks: this.props.allBooks,
+                sortedBy: ''
+            })
+        }
+    }
+
+    sortBy = (event, header) => {
+        const sortedBooks = [...this.props.allBooks];
+        sortedBooks.sort((a, b) => {
+            if (a[header].toLowerCase() > b[header].toLowerCase()) {
+                return 1;
+            } else if (a[header].toLowerCase() < b[header].toLowerCase()) {
+                return -1;
+            }
+            return 0;
+        });
+        this.setState({
+            sortedBooks: sortedBooks,
+            sortedBy: header
+        });
+    }
+
     render() {
-        const books = this.props.allBooks.map((book) => {
+        const books = this.state.sortedBooks.map((book) => {
             return (
                 <tr key={book.key}>
                     <td>{book.title}</td>
@@ -14,15 +46,22 @@ class AllBooks extends Component {
                 </tr>
             );
         });
+        const headers = ['Title', 'Author', 'Round', 'ISBN'].map((header) => {
+            return (
+                <th
+                    key={header}
+                    onClick={(event) => this.sortBy(event, header.toLowerCase())}
+                    className={this.state.sortedBy === header.toLowerCase() ? classes.sorted : null}>
+                    {header}
+                </th>
+            );
+        });
         return (
             <main className="main">
                 <table className={classes.allbooks}>
                     <thead>
                         <tr>
-                            <th>Title</th>
-                            <th>Author</th>
-                            <th>Round</th>
-                            <th>ISBN</th>
+                            {headers}
                         </tr>
                     </thead>
                     <tbody>
