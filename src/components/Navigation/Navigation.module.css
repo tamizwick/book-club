@@ -1,11 +1,62 @@
+.Navigation li {
+    display: none;
+}
+
+.Navigation li.show {
+    display: block;
+}
+
+.Navigation.show {
+    height: 100%;
+}
+
 .Navigation {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding-left: 2em;
+    flex-direction: column;
+    align-items: flex-start;
     background: #0e2f44;
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 1000;
+    position: fixed;
+    top: 0;
+    margin: 0;
+}
+
+.responsiveButton {
+    color: #ecebE4;
+    background: inherit;
+    border: 0;
+    box-shadow: none;
+    font-size: 2em;
+    padding: .4em 0;
+    cursor: pointer;
+}
+
+.responsiveButton:focus {
+    outline: 0;
+}
+
+@media all and (min-width: 500px) {
+    .Navigation {
+        padding-left: 2em;
+        flex-direction: row;
+    }
+
+    .Navigation.show {
+        height: auto;
+    }
+
+    .Navigation li,
+    .Navigation li.show {
+        display: inline;
+    }
+
+    .Navigation li:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .responsiveButton {
+        display: none;
+    }
 }

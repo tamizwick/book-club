@@ -20,3 +20,44 @@
     color: #fff;
     margin-left: .25em;
 }
+
+@media all and (max-width: 560px) {
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+    }
+    
+    thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.allbooks tr { border: 1px solid #800000; }
+	
+	.allbooks td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+        padding-left: 50%;
+        min-height: 1em; 
+	}
+	
+	.allbooks td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+        white-space: nowrap;
+        color: #800000;
+        font-weight: bold;
+    }
+    
+    .allbooks td:nth-of-type(1):before { content: "Title"; }
+	.allbooks td:nth-of-type(2):before { content: "Author"; }
+	.allbooks td:nth-of-type(3):before { content: "Round"; }
+	.allbooks td:nth-of-type(4):before { content: "ISBN"; }
+}

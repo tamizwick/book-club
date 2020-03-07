@@ -21,7 +21,7 @@ class AllBooks extends Component {
                     this.setState({
                         sortedBooks: this.props.allBooks,
                         sortedBy: ''
-                    })
+                    });
                 })
                 .catch((err) => {
                     console.log(err);

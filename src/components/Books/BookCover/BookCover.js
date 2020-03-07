@@ -3,7 +3,7 @@ import classes from './BookCover.module.css';
 
 const bookCover = (props) => {
     return (
-        <figure>
+        <figure className={classes.figure}>
             <img
                 key={props.book.isbn}
                 src={props.book.imageLink}

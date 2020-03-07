@@ -4,7 +4,7 @@ import classes from './NavItem.module.css';
 
 const navItem = (props) => {
     return (
-        <li className={classes.NavItem}>
+        <li onClick={props.clicked} className={classes.NavItem}>
             <NavLink
                 to={props.to}
                 exact={props.exact}
