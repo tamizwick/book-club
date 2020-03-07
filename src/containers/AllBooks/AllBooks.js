@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import axios from 'axios';
 import classes from './AllBooks.module.css';
+import * as actionTypes from '../../store/actions/actionTypes';
 
 // @TODO: Rework CurrentCarousel to get current books from state instead of api call
 // @TODO: Responsive navigation
 
 class AllBooks extends Component {
     state = {
-        sortedBooks: []
+        sortedBooks: this.props.allBooks || [],
+        sortedBy: ''
     }
 
-    componentDidUpdate() {
-        if (!this.state.sortedBooks.length) {
-            this.setState({
-                sortedBooks: this.props.allBooks,
-                sortedBy: ''
-            })
+    componentDidMount() {
+        if (!this.props.allBooks.length) {
+            axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
+                .then((res) => {
+                    this.props.fetchBooks(res.data);
+                    this.setState({
+                        sortedBooks: this.props.allBooks,
+                        sortedBy: ''
+                    })
+                })
+                .catch((err) => {
+                    console.log(err);
+                });
         }
     }
 
@@ -75,8 +85,14 @@ class AllBooks extends Component {
 
 const mapStateToProps = (state) => {
     return {
+        token: state.auth.token,
         allBooks: state.books.allBooks
     };
 };
 
-export default connect(mapStateToProps)(AllBooks);
+const mapDispatchToProps = (dispatch) => {
+    return {
+        fetchBooks: (allBooks) => dispatch({ type: actionTypes.FETCH_BOOKS, allBooks: allBooks })
+    };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(AllBooks);

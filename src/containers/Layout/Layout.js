@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import axios from 'axios';
 import classes from './Layout.module.css';
 import * as actionTypes from '../../store/actions/actionTypes';
 import SignIn from '../SignIn/SignIn';
@@ -23,17 +22,6 @@ class Layout extends Component {
         } else if (token && token.length) {
             this.props.onSignIn(token, expirationDate, emailAddress);
         }
-    }
-
-    // @TODO: Figure out why this isn't always working. Move it to AllBooks?
-    componentDidMount() {
-        axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
-            .then((res) => {
-                this.props.fetchBooks(res.data);
-            })
-            .catch((err) => {
-                console.log(err);
-            });
     }
 
     render() {
@@ -79,7 +67,6 @@ const mapDispatchToProps = (dispatch) => {
             emailAddress: emailAddress
         }),
         onLogout: () => dispatch({ type: actionTypes.LOGOUT }),
-        fetchBooks: (allBooks) => dispatch({ type: actionTypes.FETCH_BOOKS, allBooks: allBooks })
     };
 };
 
