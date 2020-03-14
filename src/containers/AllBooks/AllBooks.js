@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import axios from 'axios';
 import classes from './AllBooks.module.css';
-import * as actionTypes from '../../store/actions/actionTypes';
-
-// @TODO: Rework CurrentCarousel to get current books from state instead of api call
-// @TODO: Responsive navigation
+import * as utility from '../../utility/utility';
+import Button from '../../components/UI/Button/Button';
 
 class AllBooks extends Component {
     state = {
@@ -13,19 +10,11 @@ class AllBooks extends Component {
         sortedBy: ''
     }
 
-    componentDidMount() {
-        if (!this.props.allBooks.length) {
-            axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
-                .then((res) => {
-                    this.props.fetchBooks(res.data);
-                    this.setState({
-                        sortedBooks: this.props.allBooks,
-                        sortedBy: ''
-                    });
-                })
-                .catch((err) => {
-                    console.log(err);
-                });
+    componentDidUpdate() {
+        if (!this.state.sortedBooks.length) {
+            this.setState({
+                sortedBooks: this.props.allBooks
+            })
         }
     }
 
@@ -43,6 +32,10 @@ class AllBooks extends Component {
             sortedBooks: sortedBooks,
             sortedBy: header
         });
+    }
+
+    addBookHandler = () => {
+        utility.pushHistory('/admin/add-book', this.props.history);
     }
 
     render() {
@@ -68,6 +61,9 @@ class AllBooks extends Component {
         });
         return (
             <main className="main">
+                <h2>All Books</h2>
+                <p className={classes.totalBooks}>Total: {this.props.allBooks.length}</p>
+                <Button btnClass='btn-primary' clicked={this.addBookHandler}>Add Book</Button>
                 <table className={classes.allbooks}>
                     <thead>
                         <tr>
@@ -85,14 +81,8 @@ class AllBooks extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        token: state.auth.token,
         allBooks: state.books.allBooks
     };
 };
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        fetchBooks: (allBooks) => dispatch({ type: actionTypes.FETCH_BOOKS, allBooks: allBooks })
-    };
-};
-export default connect(mapStateToProps, mapDispatchToProps)(AllBooks);
+export default connect(mapStateToProps)(AllBooks);

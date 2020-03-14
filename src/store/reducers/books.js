@@ -5,9 +5,10 @@ const initialState = {
 };
 
 const reducer = (state = initialState, action) => {
+    let allBooks;
     switch (action.type) {
         case actionTypes.FETCH_BOOKS:
-            const allBooks = [];
+            allBooks = [];
             for (let key in action.allBooks) {
                 allBooks.push({
                     ...action.allBooks[key],
@@ -17,7 +18,14 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 allBooks: allBooks
-            }
+            };
+        case actionTypes.ADD_BOOK:
+            allBooks = [...state.allBooks];
+            allBooks.push(action.bookData);
+            return {
+                ...state,
+                allBooks: allBooks
+            };
         default:
             return state;
     };

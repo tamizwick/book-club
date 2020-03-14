@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import axios from 'axios';
-import * as actionTypes from '../../store/actions/actionTypes';
 import Carousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import BookCover from '../../components/Books/BookCover/BookCover';
@@ -11,19 +10,17 @@ class CurrentCarousel extends Component {
         currentBooks: []
     }
 
-    componentDidMount() {
+    componentDidUpdate(prevProps) {
         let currentBooks = [];
-        if (!this.props.allBooks.length) {
-            axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
-                .then((res) => {
-                    this.props.fetchBooks(res.data);
-                    currentBooks = this.filterByCurrentRound();
-                    this.fetchCovers(currentBooks);
-                })
-                .catch((err) => {
-                    console.log(err);
-                });
-        } else if (this.props.allBooks.length) {
+        if (this.props.allBooks.length && !this.state.currentBooks.length) {
+            currentBooks = this.filterByCurrentRound();
+            this.fetchCovers(currentBooks);
+        }
+    }
+
+    componentDidMount() {
+        if (this.props.allBooks.length) {
+            let currentBooks = [];
             currentBooks = this.filterByCurrentRound();
             this.fetchCovers(currentBooks);
         }
@@ -104,15 +101,8 @@ class CurrentCarousel extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        token: state.auth.token,
         allBooks: state.books.allBooks
     };
 };
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        fetchBooks: (allBooks) => dispatch({ type: actionTypes.FETCH_BOOKS, allBooks: allBooks })
-    };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(CurrentCarousel);
+export default connect(mapStateToProps)(CurrentCarousel);

@@ -21,6 +21,11 @@
     margin-left: .25em;
 }
 
+.totalBooks {
+	display: inline;
+	margin-right: 1em;
+}
+
 @media all and (max-width: 560px) {
     table, thead, tbody, th, td, tr { 
 		display: block; 
