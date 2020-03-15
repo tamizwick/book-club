@@ -11,6 +11,7 @@ import AllBooks from '../AllBooks/AllBooks';
 import Admin from '../../components/Admin/Admin';
 import NewUser from '../../containers/Admin/NewUser/NewUser';
 import ChangePassword from '../Admin/ChangePassword/ChangePassword';
+import SetCurrentRound from '../Admin/SetCurrentRound/SetCurrentRound';
 import AddBook from '../Admin/AddBook/AddBook';
 
 class Layout extends Component {
@@ -32,13 +33,11 @@ class Layout extends Component {
 
     componentDidUpdate(prevProps) {
         if (!this.props.allBooks.length && this.props.token && this.props.token !== prevProps.token) {
-            console.log(this.props.allBooks)
             this.fetchBooks();
         }
     }
 
     fetchBooks() {
-        console.log('fetching')
         axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
             .then((res) => {
                 this.props.fetchBooks(res.data);
@@ -61,6 +60,7 @@ class Layout extends Component {
                     <Route path='/all-books' component={AllBooks} />
                     <Route path='/admin/new-user' component={NewUser} />
                     <Route path='/admin/change-password' component={ChangePassword} />
+                    <Route path='/admin/set-current-round' component={SetCurrentRound} />
                     <Route path='/admin/add-book' component={AddBook} />
                     <Route path='/admin' component={Admin} />
                     <Route path='/logout' component={Logout} />

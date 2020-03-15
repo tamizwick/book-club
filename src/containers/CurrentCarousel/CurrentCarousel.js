@@ -11,26 +11,28 @@ class CurrentCarousel extends Component {
     }
 
     componentDidUpdate(prevProps) {
-        let currentBooks = [];
         if (this.props.allBooks.length && !this.state.currentBooks.length) {
-            currentBooks = this.filterByCurrentRound();
-            this.fetchCovers(currentBooks);
+            this.filterByCurrentRound();
         }
     }
 
     componentDidMount() {
         if (this.props.allBooks.length) {
-            let currentBooks = [];
-            currentBooks = this.filterByCurrentRound();
-            this.fetchCovers(currentBooks);
+            this.filterByCurrentRound();
         }
     }
 
     filterByCurrentRound() {
-        const filteredBooks = this.props.allBooks.filter((book) => {
-            return book.round === 'wanna-read-it books'
-        });
-        return filteredBooks;
+        axios.get(`https://fd-book-club.firebaseio.com/settings/currentRound.json?auth=${this.props.token}`)
+            .then((res) => {
+                const filteredBooks = this.props.allBooks.filter((book) => {
+                    return book.round === res.data
+                });
+                this.fetchCovers(filteredBooks);
+            })
+            .catch((err) => {
+                console.log(err)
+            });
     }
 
     fetchCovers(currentBooks) {
@@ -101,6 +103,7 @@ class CurrentCarousel extends Component {
 
 const mapStateToProps = (state) => {
     return {
+        token: state.auth.token,
         allBooks: state.books.allBooks
     };
 };

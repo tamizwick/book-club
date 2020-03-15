@@ -20,6 +20,19 @@ const admin = (props) => {
                     Change My Password
                 </Button>
             </div>
+            <div className={classes.btnContainer}>
+                <h2 className={classes.containerHeader}>Book Management</h2>
+                <Button
+                    btnClass='btn-secondary'
+                    clicked={(event) => utility.pushHistory('/admin/set-current-round', props.history)}>
+                    Set Current Round
+                </Button>
+                <Button
+                    btnClass='btn-secondary'
+                    clicked={(event) => utility.pushHistory('/admin/add-book', props.history)}>
+                    Add Book
+                </Button>
+            </div>
         </main>
     );
 }
