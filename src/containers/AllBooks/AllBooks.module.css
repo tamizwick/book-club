@@ -1,6 +1,12 @@
 .allbooks {
     border-collapse: collapse;
 }
+.allbooks tbody tr:hover {
+	background: #ecebe4;
+	background: #8dcdea;
+	box-shadow: 2px 3px 6px #000;
+	cursor: pointer;
+}
 
 .allbooks th,
 .allbooks td {
@@ -14,6 +20,7 @@
     border-color: #fff;
     cursor: pointer;
 }
+
 
 .allbooks .sorted:after {
     content: '▼';

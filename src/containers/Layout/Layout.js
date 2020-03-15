@@ -13,6 +13,7 @@ import NewUser from '../../containers/Admin/NewUser/NewUser';
 import ChangePassword from '../Admin/ChangePassword/ChangePassword';
 import SetCurrentRound from '../Admin/SetCurrentRound/SetCurrentRound';
 import AddBook from '../Admin/AddBook/AddBook';
+import BookDetails from '../BookDetails/BookDetails';
 
 class Layout extends Component {
     constructor(props) {
@@ -57,7 +58,8 @@ class Layout extends Component {
         if (this.props.token !== null) {
             routes = (
                 <Switch>
-                    <Route path='/all-books' component={AllBooks} />
+                    <Route path='/books/all-books' component={AllBooks} />
+                    <Route path='/books/details/:isbn' component={BookDetails} />
                     <Route path='/admin/new-user' component={NewUser} />
                     <Route path='/admin/change-password' component={ChangePassword} />
                     <Route path='/admin/set-current-round' component={SetCurrentRound} />

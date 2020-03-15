@@ -38,10 +38,14 @@ class AllBooks extends Component {
         utility.pushHistory('/admin/add-book', this.props.history);
     }
 
+    rowClickHandler = (event, isbn) => {
+        utility.pushHistory(`/books/details/${isbn}`, this.props.history);
+    }
+
     render() {
         const books = this.state.sortedBooks.map((book) => {
             return (
-                <tr key={book.key}>
+                <tr key={book.key} onClick={(event, isbn) => this.rowClickHandler(event, book.isbn)}>
                     <td>{book.title}</td>
                     <td>{book.author}</td>
                     <td>{book.round}</td>

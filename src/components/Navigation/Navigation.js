@@ -32,7 +32,7 @@ const navigation = (props) => {
                 {props.location.pathname !== '/signin'
                     ? <Fragment>
                         <NavItem to='/' exact clicked={toggleMenu}>Home</NavItem>
-                        <NavItem to='/all-books' clicked={toggleMenu}>All Books</NavItem>
+                        <NavItem to='/books/all-books' clicked={toggleMenu}>All Books</NavItem>
                         <NavItem to='/admin' clicked={toggleMenu}>Admin</NavItem>
                         <NavItem to='/logout' clicked={toggleMenu}>Logout</NavItem>
                     </Fragment>
