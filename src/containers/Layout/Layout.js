@@ -25,15 +25,27 @@ class Layout extends Component {
             this.props.onSignIn(token, expirationDate, emailAddress);
         }
 
-        if (!this.props.allBooks.length) {
-            axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
-                .then((res) => {
-                    this.props.fetchBooks(res.data);
-                })
-                .catch((err) => {
-                    console.log(err);
-                });
+        if (!this.props.allBooks.length && this.props.token) {
+            this.fetchBooks();
         }
+    }
+
+    componentDidUpdate(prevProps) {
+        if (!this.props.allBooks.length && this.props.token && this.props.token !== prevProps.token) {
+            console.log(this.props.allBooks)
+            this.fetchBooks();
+        }
+    }
+
+    fetchBooks() {
+        console.log('fetching')
+        axios.get(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`)
+            .then((res) => {
+                this.props.fetchBooks(res.data);
+            })
+            .catch((err) => {
+                console.log(err);
+            });
     }
 
     render() {
