@@ -5,6 +5,9 @@ import * as utility from '../../utility/utility';
 import classes from './BookDetails.module.css';
 import Button from '../../components/UI/Button/Button';
 
+
+//@TODO: Make this responsive
+
 class BookDetails extends Component {
     state = {
         title: '',
@@ -37,7 +40,6 @@ class BookDetails extends Component {
     fetchCover = (isbn) => {
         axios.get(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`)
             .then((res) => {
-                console.log(res.data);
                 if (res.data.items && res.data.items.length) {
                     this.setState({
                         imageLink: res.data.items[0].volumeInfo.imageLinks.thumbnail
@@ -63,15 +65,17 @@ class BookDetails extends Component {
         return (
             <main className="main">
                 {this.state.imageLink !== ''
-                    ? <img src={this.state.imageLink} alt={this.state.title + ' cover'} className={classes.cover} />
+                    ? <div className={classes.cover}><img src={this.state.imageLink} alt={this.state.title + ' cover'} className={classes.coverImg} /></div>
                     : null
                 }
-                <h2 className={classes.bookTitle}>{this.state.title}</h2>
-                <Button btnClass='btn-primary' clicked={this.editBookHandler}>Edit Book</Button>
-                <h3 className={classes.author}>by {this.state.author}</h3>
-                <p><span className={classes.detailSpan}>Round:</span> {this.state.round.length ? this.state.round : 'none'}</p>
-                <p><span className={classes.detailSpan}>Nominated by:</span> {this.state.nominator && this.state.nominator.length ? this.state.nominator : 'unknown'}</p>
-                <p><span className={classes.detailSpan}>ISBN:</span> {this.state.isbn}</p>
+                <div className={classes.details}>
+                    <h2 className={classes.bookTitle}>{this.state.title}</h2>
+                    <Button btnClass='btn-primary' clicked={this.editBookHandler}>Edit Book</Button>
+                    <h3 className={classes.author}>by {this.state.author}</h3>
+                    <p><span className={classes.detailSpan}>Round:</span> {this.state.round.length ? this.state.round : 'none'}</p>
+                    <p><span className={classes.detailSpan}>Nominated by:</span> {this.state.nominator && this.state.nominator.length ? this.state.nominator : 'unknown'}</p>
+                    <p><span className={classes.detailSpan}>ISBN:</span> {this.state.isbn}</p>
+                </div>
             </main>
         );
     }

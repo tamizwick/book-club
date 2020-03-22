@@ -1,10 +1,13 @@
+.details {
+    margin-left: calc(50% - 90px);
+}
+
 .detailSpan {
     font-weight: bold;
     color: #800000;
 }
 
 .bookTitle {
-    display: inline-block;
     margin-right: 1em;
     margin-bottom: 0;
 }
@@ -14,8 +17,27 @@
 }
 
 .cover {
-    float: left;
-    margin-right: 1em;
-    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.coverImg {
     width: 180px;
+}
+
+@media all and (min-width: 500px) {
+    .details {
+        margin-left: 0;
+    }
+
+    .cover {
+        float: left;
+        margin-right: 1em;
+        text-align: left;
+        width: 180px;
+    }
+
+    .bookTitle {
+        display: inline;
+    }
 }
