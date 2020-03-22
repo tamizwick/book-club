@@ -64,6 +64,7 @@ class Layout extends Component {
                     <Route path='/admin/change-password' component={ChangePassword} />
                     <Route path='/admin/set-current-round' component={SetCurrentRound} />
                     <Route path='/admin/add-book' component={AddBook} />
+                    <Route path='/admin/edit-book/:isbn' component={AddBook} />
                     <Route path='/admin' component={Admin} />
                     <Route path='/logout' component={Logout} />
                     <Route path='/' exact component={Homepage} />

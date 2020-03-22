@@ -27,6 +27,50 @@ class AddBook extends Component {
                 value: '',
                 type: 'text'
             }
+        },
+        isEdit: false,
+        key: null,
+        message: ''
+    }
+
+    componentDidMount() {
+        const isEdit = this.props.location.pathname.includes('edit-book');
+        if (isEdit) {
+            axios.get(`https://fd-book-club.firebaseio.com/books.json?orderBy="isbn"&equalTo="${this.props.match.params.isbn}"&auth=${this.props.token}`)
+                .then((res) => {
+                    for (let key in res.data) {
+                        this.setState({
+                            bookForm: {
+                                ...this.state.bookForm,
+                                title: {
+                                    ...this.state.title,
+                                    value: res.data[key].title
+                                },
+                                author: {
+                                    ...this.state.author,
+                                    value: res.data[key].author
+                                },
+                                round: {
+                                    ...this.state.round,
+                                    value: res.data[key].round
+                                },
+                                ISBN: {
+                                    ...this.state.ISBN,
+                                    value: res.data[key].isbn
+                                },
+                                nominator: {
+                                    ...this.state.nominator,
+                                    value: res.data[key].nominator
+                                },
+                            },
+                            isEdit: true,
+                            key: key
+                        });
+                    }
+                })
+                .catch((err) => {
+                    console.log(err);
+                });
         }
     }
 
@@ -53,41 +97,54 @@ class AddBook extends Component {
             isbn: this.state.bookForm.ISBN.value,
             nominator: this.state.bookForm.nominator.value
         };
-        axios.post(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`, bookData)
-            .then((res) => {
-                bookData.key = res.data.name
-                this.props.addBook(bookData);
 
-                const bookForm = {
-                    ...this.state.bookForm,
-                    title: {
-                        ...this.state.bookForm.title,
-                        value: ''
-                    },
-                    author: {
-                        ...this.state.bookForm.author,
-                        value: ''
-                    },
-                    round: {
-                        ...this.state.bookForm.round,
-                        value: ''
-                    },
-                    ISBN: {
-                        ...this.state.bookForm.ISBN,
-                        value: ''
-                    },
-                    nominator: {
-                        ...this.state.bookForm.nominator,
-                        value: ''
-                    },
-                };
-                this.setState({
-                    bookForm: bookForm
+        if (this.state.isEdit) {
+            axios.put(`https://fd-book-club.firebaseio.com/books/${this.state.key}.json?auth=${this.props.token}`, bookData)
+                .then((res) => {
+                    this.setState({
+                        message: `Updated ${res.data.title}`
+                    });
+                })
+                .catch((err) => {
+                    console.log(err);
                 });
-            })
-            .catch((err) => {
-                console.log(err);
-            });
+        } else {
+            axios.post(`https://fd-book-club.firebaseio.com/books.json?auth=${this.props.token}`, bookData)
+                .then((res) => {
+                    bookData.key = res.data.name
+                    this.props.addBook(bookData);
+
+                    const bookForm = {
+                        ...this.state.bookForm,
+                        title: {
+                            ...this.state.bookForm.title,
+                            value: ''
+                        },
+                        author: {
+                            ...this.state.bookForm.author,
+                            value: ''
+                        },
+                        round: {
+                            ...this.state.bookForm.round,
+                            value: ''
+                        },
+                        ISBN: {
+                            ...this.state.bookForm.ISBN,
+                            value: ''
+                        },
+                        nominator: {
+                            ...this.state.bookForm.nominator,
+                            value: ''
+                        },
+                    };
+                    this.setState({
+                        bookForm: bookForm
+                    });
+                })
+                .catch((err) => {
+                    console.log(err);
+                });
+        }
 
     }
 
@@ -110,8 +167,9 @@ class AddBook extends Component {
 
         return (
             <main className='main'>
-                <h2>Add Book</h2>
+                <h2>{this.state.isEdit ? 'Edit' : 'Add'} Book</h2>
                 {form}
+                <p>{this.state.message}</p>
             </main>
         );
     }
