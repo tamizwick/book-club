@@ -43,24 +43,24 @@ class AddBook extends Component {
                             bookForm: {
                                 ...this.state.bookForm,
                                 title: {
-                                    ...this.state.title,
-                                    value: res.data[key].title
+                                    ...this.state.bookForm.title,
+                                    value: res.data[key].title || ''
                                 },
                                 author: {
-                                    ...this.state.author,
-                                    value: res.data[key].author
+                                    ...this.state.bookForm.author,
+                                    value: res.data[key].author || ''
                                 },
                                 round: {
-                                    ...this.state.round,
-                                    value: res.data[key].round
+                                    ...this.state.bookForm.round,
+                                    value: res.data[key].round || ''
                                 },
                                 ISBN: {
-                                    ...this.state.ISBN,
-                                    value: res.data[key].isbn
+                                    ...this.state.bookForm.ISBN,
+                                    value: res.data[key].isbn || ''
                                 },
                                 nominator: {
-                                    ...this.state.nominator,
-                                    value: res.data[key].nominator
+                                    ...this.state.bookForm.nominator,
+                                    value: res.data[key].nominator || ''
                                 },
                             },
                             isEdit: true,
@@ -102,7 +102,7 @@ class AddBook extends Component {
             axios.put(`https://fd-book-club.firebaseio.com/books/${this.state.key}.json?auth=${this.props.token}`, bookData)
                 .then((res) => {
                     this.setState({
-                        message: `Updated ${res.data.title}`
+                        message: `Updated ${res.data.title}.`
                     });
                 })
                 .catch((err) => {
@@ -157,7 +157,6 @@ class AddBook extends Component {
                 type: this.state.bookForm[key].type
             });
         }
-
         let form = (
             <Form
                 submitHandler={this.submitHandler}

@@ -11,7 +11,8 @@ class BookDetails extends Component {
         author: '',
         round: '',
         isbn: '',
-        nominator: ''
+        nominator: '',
+        imageLink: ''
     };
 
     componentDidMount() {
@@ -25,11 +26,31 @@ class BookDetails extends Component {
                         isbn: res.data[key].isbn,
                         nominator: res.data[key].nominator
                     });
+                    this.fetchCover(res.data[key].isbn);
                 }
             })
             .catch((err) => {
                 console.log(err);
             });
+    }
+
+    fetchCover = (isbn) => {
+        axios.get(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`)
+            .then((res) => {
+                console.log(res.data);
+                if (res.data.items && res.data.items.length) {
+                    this.setState({
+                        imageLink: res.data.items[0].volumeInfo.imageLinks.thumbnail
+                    });
+                } else {
+                    this.setState({
+                        imageLink: '../../assets/noImageAvailable.png'
+                    })
+                }
+            })
+            .catch((err) => {
+                console.log(err);
+            })
     }
 
     editBookHandler = (event) => {
@@ -41,6 +62,10 @@ class BookDetails extends Component {
     render() {
         return (
             <main className="main">
+                {this.state.imageLink !== ''
+                    ? <img src={this.state.imageLink} alt={this.state.title + ' cover'} className={classes.cover} />
+                    : null
+                }
                 <h2 className={classes.bookTitle}>{this.state.title}</h2>
                 <Button btnClass='btn-primary' clicked={this.editBookHandler}>Edit Book</Button>
                 <h3 className={classes.author}>by {this.state.author}</h3>
