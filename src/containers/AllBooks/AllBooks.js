@@ -49,11 +49,10 @@ class AllBooks extends Component {
                     <td>{book.title}</td>
                     <td>{book.author}</td>
                     <td>{book.round}</td>
-                    <td>{book.isbn}</td>
                 </tr>
             );
         });
-        const headers = ['Title', 'Author', 'Round', 'ISBN'].map((header) => {
+        const headers = ['Title', 'Author', 'Round'].map((header) => {
             return (
                 <th
                     key={header}
