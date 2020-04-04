@@ -23,7 +23,7 @@ class CurrentCarousel extends Component {
     }
 
     filterByCurrentRound() {
-        axios.get(`https://fd-book-club.firebaseio.com/settings/currentRound.json?auth=${this.props.token}`)
+        axios.get(`https://fd-book-club.firebaseio.com/settings/currentRound/name.json?auth=${this.props.token}`)
             .then((res) => {
                 const filteredBooks = this.props.allBooks.filter((book) => {
                     return book.round === res.data

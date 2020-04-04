@@ -8,11 +8,52 @@ class SetCurrentRound extends Component {
         currentRoundForm: {
             round: {
                 value: '',
-                type: 'text'
+                type: 'select',
+                config: {
+                    options: []
+                }
             }
         },
         isRoundSet: false,
         message: ''
+    }
+
+    componentDidMount() {
+        axios.get(`https://fd-book-club.firebaseio.com/settings/rounds.json?auth=${this.props.token}`)
+            .then((res) => {
+                const options = [];
+                for (let key in res.data) {
+                    options.push(res.data[key].name);
+                }
+                this.setState({
+                    currentRoundForm: {
+                        ...this.state.currentRoundForm,
+                        round: {
+                            ...this.state.currentRoundForm.round,
+                            config: {
+                                ...this.state.currentRoundForm.round.config,
+                                options: options
+                            }
+                        }
+                    }
+                });
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+
+        axios.get(`https://fd-book-club.firebaseio.com/settings/currentRound/name.json?auth=${this.props.token}`)
+            .then((res) => {
+                this.setState({
+                    currentRoundForm: {
+                        ...this.state.currentRoundForm,
+                        round: {
+                            ...this.state.currentRoundForm.round,
+                            value: res.data
+                        }
+                    }
+                });
+            })
     }
 
     inputHandler = (event, inputElement) => {
@@ -31,22 +72,14 @@ class SetCurrentRound extends Component {
     submitHandler = (event) => {
         event.preventDefault();
 
-        const settings = {
-            currentRound: this.state.currentRoundForm.round.value
+        const currentRound = {
+            name: this.state.currentRoundForm.round.value
         };
-        axios.put(`https://fd-book-club.firebaseio.com/settings.json?auth=${this.props.token}`, settings)
+        axios.put(`https://fd-book-club.firebaseio.com/settings/currentRound.json?auth=${this.props.token}`, currentRound)
             .then((res) => {
-                const currentRoundForm = {
-                    ...this.state.currentRoundForm,
-                    round: {
-                        ...this.state.currentRoundForm.round,
-                        value: ''
-                    }
-                };
                 this.setState({
-                    currentRoundForm: currentRoundForm,
                     isRoundSet: true,
-                    message: settings.currentRound
+                    message: currentRound.name
                 });
             })
             .catch((err) => {
@@ -60,7 +93,8 @@ class SetCurrentRound extends Component {
             formElements.push({
                 key: key,
                 value: this.state.currentRoundForm[key].value,
-                type: this.state.currentRoundForm[key].type
+                type: this.state.currentRoundForm[key].type,
+                config: this.state.currentRoundForm[key].config
             });
         }
 
