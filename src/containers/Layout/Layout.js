@@ -12,6 +12,7 @@ import Admin from '../../components/Admin/Admin';
 import NewUser from '../../containers/Admin/NewUser/NewUser';
 import ChangePassword from '../Admin/ChangePassword/ChangePassword';
 import SetCurrentRound from '../Admin/SetCurrentRound/SetCurrentRound';
+import AddRound from '../Admin/AddRound/AddRound';
 import AddBook from '../Admin/AddBook/AddBook';
 import BookDetails from '../BookDetails/BookDetails';
 
@@ -62,6 +63,7 @@ class Layout extends Component {
                     <Route path='/books/details/:isbn' component={BookDetails} />
                     <Route path='/admin/new-user' component={NewUser} />
                     <Route path='/admin/change-password' component={ChangePassword} />
+                    <Route path='/admin/add-round' component={AddRound} />
                     <Route path='/admin/set-current-round' component={SetCurrentRound} />
                     <Route path='/admin/add-book' component={AddBook} />
                     <Route path='/admin/edit-book/:isbn' component={AddBook} />

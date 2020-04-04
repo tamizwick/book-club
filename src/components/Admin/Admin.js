@@ -24,6 +24,11 @@ const admin = (props) => {
                 <h2 className={classes.containerHeader}>Book Management</h2>
                 <Button
                     btnClass='btn-secondary'
+                    clicked={(event) => utility.pushHistory('/admin/add-round', props.history)}>
+                    Add Round
+                </Button>
+                <Button
+                    btnClass='btn-secondary'
                     clicked={(event) => utility.pushHistory('/admin/set-current-round', props.history)}>
                     Set Current Round
                 </Button>

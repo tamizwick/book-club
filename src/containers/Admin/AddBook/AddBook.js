@@ -17,7 +17,10 @@ class AddBook extends Component {
             },
             round: {
                 value: '',
-                type: 'text'
+                type: 'select',
+                config: {
+                    options: []
+                }
             },
             ISBN: {
                 value: '',
@@ -34,6 +37,29 @@ class AddBook extends Component {
     }
 
     componentDidMount() {
+        axios.get(`https://fd-book-club.firebaseio.com/settings/rounds.json?auth=${this.props.token}`)
+            .then((res) => {
+                const options = [];
+                for (let key in res.data) {
+                    options.push(res.data[key].name);
+                }
+                this.setState({
+                    bookForm: {
+                        ...this.state.bookForm,
+                        round: {
+                            ...this.state.bookForm.round,
+                            config: {
+                                ...this.state.bookForm.round.config,
+                                options: options
+                            }
+                        }
+                    }
+                });
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+
         const isEdit = this.props.location.pathname.includes('edit-book');
         if (isEdit) {
             axios.get(`https://fd-book-club.firebaseio.com/books.json?orderBy="isbn"&equalTo="${this.props.match.params.isbn}"&auth=${this.props.token}`)
@@ -154,7 +180,8 @@ class AddBook extends Component {
             formElements.push({
                 key: key,
                 value: this.state.bookForm[key].value,
-                type: this.state.bookForm[key].type
+                type: this.state.bookForm[key].type,
+                config: this.state.bookForm[key].config
             });
         }
         let form = (

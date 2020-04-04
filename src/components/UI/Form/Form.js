@@ -11,7 +11,8 @@ const form = (props) => {
                         key={el.key}
                         type={el.type}
                         value={el.value}
-                        changed={(event) => props.inputHandler(event, el, props.validationErrors)}>
+                        config={el.config}
+                        changed={(event) => props.inputHandler(event, el, props.validationErrors)} >
                         {el.key.replace('_', ' ')}
                     </Input>
                 );
