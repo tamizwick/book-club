@@ -28,14 +28,16 @@ const input = (props) => {
             break;
         }
         case ('select'): {
+            const isValueSet = props.config.options.includes(props.value);
             inputElement = (
                 <select
-                    id={props.label}
+                    id={props.name}
                     name={props.name}
                     value={props.value}
                     onChange={props.changed} >
+                    <option value="" disabled={isValueSet}>Select a {props.name}</option>
                     {props.config.options.map((option) => {
-                        return <option key={option}>{option}</option>
+                        return <option key={option} value={option}>{option}</option>
                     })}
                 </select>
             );

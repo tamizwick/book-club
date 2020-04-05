@@ -3,6 +3,16 @@
     margin: 1em 0;
 }
 
+.formInput input,
+.formInput select {
+    width: 15em;
+    box-sizing: border-box;
+}
+
+.formInput select {
+    height: 1.75em;
+}
+
 .label {
     display: block;
 }

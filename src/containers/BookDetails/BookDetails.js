@@ -5,9 +5,6 @@ import * as utility from '../../utility/utility';
 import classes from './BookDetails.module.css';
 import Button from '../../components/UI/Button/Button';
 
-
-//@TODO: Make this responsive
-
 class BookDetails extends Component {
     state = {
         title: '',

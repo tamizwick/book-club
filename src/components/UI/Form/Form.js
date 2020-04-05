@@ -9,6 +9,7 @@ const form = (props) => {
                 return (
                     <Input
                         key={el.key}
+                        name={el.key}
                         type={el.type}
                         value={el.value}
                         config={el.config}

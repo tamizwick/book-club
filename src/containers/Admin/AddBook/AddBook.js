@@ -28,7 +28,10 @@ class AddBook extends Component {
             },
             nominator: {
                 value: '',
-                type: 'text'
+                type: 'select',
+                config: {
+                    options: []
+                }
             }
         },
         isEdit: false,
@@ -58,7 +61,30 @@ class AddBook extends Component {
             })
             .catch((err) => {
                 console.log(err);
+            });
+
+        axios.get(`https://fd-book-club.firebaseio.com/settings/nominators.json?auth=${this.props.token}`)
+            .then((res) => {
+                const options = [];
+                for (let key in res.data) {
+                    options.push(res.data[key].name);
+                }
+                this.setState({
+                    bookForm: {
+                        ...this.state.bookForm,
+                        nominator: {
+                            ...this.state.bookForm.nominator,
+                            config: {
+                                ...this.state.bookForm.nominator.config,
+                                options: options
+                            }
+                        }
+                    }
+                });
             })
+            .catch((err) => {
+                console.log(err);
+            });
 
         const isEdit = this.props.location.pathname.includes('edit-book');
         if (isEdit) {
