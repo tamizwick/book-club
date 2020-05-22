@@ -9,11 +9,17 @@ class AddBook extends Component {
         bookForm: {
             title: {
                 value: '',
-                type: 'text'
+                type: 'text',
+                config: {
+                    required: true
+                }
             },
             author: {
                 value: '',
-                type: 'text'
+                type: 'text',
+                config: {
+                    required: true
+                }
             },
             round: {
                 value: '',
@@ -24,7 +30,10 @@ class AddBook extends Component {
             },
             ISBN: {
                 value: '',
-                type: 'text'
+                type: 'text',
+                config: {
+                    required: true
+                }
             },
             nominator: {
                 value: '',
@@ -36,7 +45,8 @@ class AddBook extends Component {
         },
         isEdit: false,
         key: null,
-        message: ''
+        message: '',
+        messageColor: '#000'
     }
 
     componentDidMount() {
@@ -142,6 +152,17 @@ class AddBook extends Component {
     submitHandler = (event) => {
         event.preventDefault();
 
+        for (let input in this.state.bookForm) {
+            if (this.state.bookForm[input].config && this.state.bookForm[input].config.required && this.state.bookForm[input].value === '') {
+                const inputName = input[0].toUpperCase() + input.slice(1);
+                this.setState({
+                    message: `${inputName} is required.`,
+                    messageColor: '#800000'
+                });
+                return;
+            }
+        }
+
         const bookData = {
             title: this.state.bookForm.title.value,
             author: this.state.bookForm.author.value,
@@ -154,8 +175,11 @@ class AddBook extends Component {
             axios.put(`https://fd-book-club.firebaseio.com/books/${this.state.key}.json?auth=${this.props.token}`, bookData)
                 .then((res) => {
                     this.setState({
-                        message: `Updated ${res.data.title}.`
+                        message: `Updated ${res.data.title}.`,
+                        messageColor: '#000'
                     });
+                    bookData.key = this.state.key;
+                    this.props.editBook(bookData);
                 })
                 .catch((err) => {
                     console.log(err);
@@ -166,6 +190,7 @@ class AddBook extends Component {
                     bookData.key = res.data.name
                     this.props.addBook(bookData);
 
+                    const title = bookData.title;
                     const bookForm = {
                         ...this.state.bookForm,
                         title: {
@@ -190,7 +215,9 @@ class AddBook extends Component {
                         },
                     };
                     this.setState({
-                        bookForm: bookForm
+                        bookForm: bookForm,
+                        message: `${title} has been added.`,
+                        messageColor: '#000'
                     });
                 })
                 .catch((err) => {
@@ -221,7 +248,7 @@ class AddBook extends Component {
             <main className='main'>
                 <h2>{this.state.isEdit ? 'Edit' : 'Add'} Book</h2>
                 {form}
-                <p>{this.state.message}</p>
+                <p style={{ color: this.state.messageColor }}>{this.state.message}</p>
             </main>
         );
     }
@@ -235,7 +262,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        addBook: (bookData) => dispatch({ type: actionTypes.ADD_BOOK, bookData: bookData })
+        addBook: (bookData) => dispatch({ type: actionTypes.ADD_BOOK, bookData: bookData }),
+        editBook: (bookData) => dispatch({ type: actionTypes.EDIT_BOOK, bookData: bookData })
     };
 };
 

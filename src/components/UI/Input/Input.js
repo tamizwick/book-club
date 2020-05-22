@@ -59,6 +59,7 @@ const input = (props) => {
                 style={{ textTransform: 'capitalize' }}
                 className={classes.label} >
                 {props.children}
+                {props.config && props.config.required ? <span style={{ color: '#800000', marginLeft: '4px' }}>*</span> : null}
             </label>
             {inputElement}
         </div>

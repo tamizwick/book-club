@@ -26,6 +26,16 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 allBooks: allBooks
             };
+        case actionTypes.EDIT_BOOK:
+            allBooks = [...state.allBooks];
+            const bookIndex = state.allBooks.findIndex((book) => {
+                return book.key === action.bookData.key;
+            });
+            Object.assign(allBooks[bookIndex], action.bookData);
+            return {
+                ...state,
+                allBooks: allBooks
+            };
         default:
             return state;
     };
