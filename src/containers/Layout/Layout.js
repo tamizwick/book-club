@@ -15,6 +15,7 @@ import SetCurrentRound from '../Admin/SetCurrentRound/SetCurrentRound';
 import AddRound from '../Admin/AddRound/AddRound';
 import AddBook from '../Admin/AddBook/AddBook';
 import BookDetails from '../BookDetails/BookDetails';
+import Members from '../../components/Members/Members';
 
 class Layout extends Component {
     constructor(props) {
@@ -68,6 +69,7 @@ class Layout extends Component {
                     <Route path='/admin/add-book' component={AddBook} />
                     <Route path='/admin/edit-book/:isbn' component={AddBook} />
                     <Route path='/admin' component={Admin} />
+                    <Route path='/members' component={Members} />
                     <Route path='/logout' component={Logout} />
                     <Route path='/' exact component={Homepage} />
                     <Redirect to='/' />

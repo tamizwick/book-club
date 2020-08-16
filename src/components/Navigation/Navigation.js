@@ -34,6 +34,7 @@ const navigation = (props) => {
                         <NavItem to='/' exact clicked={toggleMenu}>Home</NavItem>
                         <NavItem to='/books/all-books' clicked={toggleMenu}>All Books</NavItem>
                         <NavItem to='/admin' clicked={toggleMenu}>Admin</NavItem>
+                        <NavItem to='/members' clicked={toggleMenu}>Members</NavItem>
                         <NavItem to='/logout' clicked={toggleMenu}>Logout</NavItem>
                     </Fragment>
                     : <NavItem to='/signin' exact clicked={toggleMenu}>Sign In</NavItem>}
