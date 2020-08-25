@@ -34,7 +34,7 @@ class Members extends Component {
             {
                 name: 'Kaley Reda',
                 memberSince: '2015',
-                interests: 'Getting a full night\'s sleep.',
+                interests: 'Getting a full night\'s sleep. Gestation periods.',
                 imgUrl: '',
                 bookRec: 'A Walk Along the Beach by Debbie Macomber'
             },
@@ -62,9 +62,9 @@ class Members extends Component {
             {
                 name: 'Daniel Navas',
                 memberSince: '2018',
-                interests: '',
+                interests: 'Communication, Contests, Competitions, Colloquialisms, Compèring, Cooking, Characters, Casting-of-pods, Criminals, C-Jerry',
                 imgUrl: '',
-                bookRec: 'Mrs. Miracle by Debbie Macomber'
+                bookReC: 'Mrs. MiraCle by Debbie Macomber'
             },
             {
                 name: 'Jerry Timbrook',
