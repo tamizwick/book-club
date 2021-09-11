@@ -1,14 +1,25 @@
+.itemButton {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.itemButton:hover {
+  background: #b1ddf1;
+}
+
 .figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cover {
-    height: 280px;
-    width: 180px;
+  height: 280px;
+  width: 180px;
 }
 
 figcaption {
-    text-align: center;
+  margin-top: 0.5em;
+  text-align: center;
 }
