@@ -1,0 +1,5497 @@
+[
+  {
+    "name": "redux",
+    "version": "0.0.1",
+    "published": "2011-10-07T07:17:24.419Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.0.2",
+    "published": "2011-10-07T10:29:50.488Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.0.3",
+    "published": "2011-10-08T07:56:01.457Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.0.4",
+    "published": "2011-10-09T08:55:18.881Z"
+  },
+  {
+    "name": "react",
+    "version": "0.0.1",
+    "published": "2011-10-26T17:46:22.746Z"
+  },
+  {
+    "name": "react",
+    "version": "0.0.2",
+    "published": "2011-10-28T22:40:36.115Z"
+  },
+  {
+    "name": "react",
+    "version": "0.0.3",
+    "published": "2011-10-29T13:40:41.073Z"
+  },
+  {
+    "name": "react",
+    "version": "0.1.2",
+    "published": "2011-12-21T20:56:27.003Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.0",
+    "published": "2012-01-10T18:58:59.882Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.1",
+    "published": "2012-01-10T19:36:17.074Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.2",
+    "published": "2012-01-10T20:44:37.670Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.3",
+    "published": "2012-01-10T23:15:07.894Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.4",
+    "published": "2012-01-11T15:44:12.287Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.5",
+    "published": "2012-01-11T19:55:24.505Z"
+  },
+  {
+    "name": "react",
+    "version": "0.2.6",
+    "published": "2012-01-11T20:58:23.590Z"
+  },
+  {
+    "name": "react",
+    "version": "0.3.0",
+    "published": "2012-01-14T06:06:46.726Z"
+  },
+  {
+    "name": "react",
+    "version": "0.3.4",
+    "published": "2012-01-17T14:59:12.449Z"
+  },
+  {
+    "name": "react",
+    "version": "0.3.5",
+    "published": "2012-01-17T20:13:08.100Z"
+  },
+  {
+    "name": "react",
+    "version": "0.5.0",
+    "published": "2012-01-18T06:49:43.631Z"
+  },
+  {
+    "name": "react",
+    "version": "0.5.1",
+    "published": "2012-01-18T18:07:11.608Z"
+  },
+  {
+    "name": "react",
+    "version": "0.5.2",
+    "published": "2012-03-13T14:01:11.641Z"
+  },
+  {
+    "name": "react",
+    "version": "0.6.0",
+    "published": "2012-03-28T22:14:37.758Z"
+  },
+  {
+    "name": "react",
+    "version": "0.6.1",
+    "published": "2012-04-25T16:57:02.959Z"
+  },
+  {
+    "name": "react",
+    "version": "0.6.2",
+    "published": "2012-09-12T21:14:33.270Z"
+  },
+  {
+    "name": "react",
+    "version": "0.6.3",
+    "published": "2012-10-18T04:24:03.381Z"
+  },
+  {
+    "name": "react",
+    "version": "0.7.0",
+    "published": "2013-05-23T18:23:29.579Z"
+  },
+  {
+    "name": "react",
+    "version": "0.7.1",
+    "published": "2013-05-23T19:48:26.316Z"
+  },
+  {
+    "name": "react",
+    "version": "0.8.0",
+    "published": "2013-12-19T18:46:02.355Z"
+  },
+  {
+    "name": "react",
+    "version": "0.9.0",
+    "published": "2014-02-20T18:47:54.841Z"
+  },
+  {
+    "name": "react",
+    "version": "0.10.0",
+    "published": "2014-03-21T21:48:06.915Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.1.0",
+    "published": "2014-05-06T18:59:36.160Z"
+  },
+  {
+    "name": "react",
+    "version": "0.11.0",
+    "published": "2014-07-17T20:51:00.913Z"
+  },
+  {
+    "name": "react",
+    "version": "0.11.1",
+    "published": "2014-07-25T18:36:36.918Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.1.0",
+    "published": "2014-08-29T23:08:36.810Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.2.0",
+    "published": "2014-09-12T20:06:33.167Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.2.1",
+    "published": "2014-09-12T22:57:28.872Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.2.2",
+    "published": "2014-09-15T03:30:45.994Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.3.0",
+    "published": "2014-09-16T18:20:18.668Z"
+  },
+  {
+    "name": "react",
+    "version": "0.11.2",
+    "published": "2014-09-16T18:33:57.956Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.3.1",
+    "published": "2014-09-17T00:31:29.538Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.4.0",
+    "published": "2014-10-05T23:55:03.069Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.4.1",
+    "published": "2014-10-15T18:19:42.549Z"
+  },
+  {
+    "name": "react",
+    "version": "0.12.0",
+    "published": "2014-10-28T18:40:33.643Z"
+  },
+  {
+    "name": "react",
+    "version": "0.12.1",
+    "published": "2014-11-18T06:56:11.863Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.4.2",
+    "published": "2014-12-11T07:14:52.563Z"
+  },
+  {
+    "name": "react",
+    "version": "0.12.2",
+    "published": "2014-12-18T20:51:41.024Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.5.0",
+    "published": "2015-01-23T10:15:47.657Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.5.1",
+    "published": "2015-03-10T20:47:18.932Z"
+  },
+  {
+    "name": "react",
+    "version": "0.13.0",
+    "published": "2015-03-10T21:51:43.816Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.5.2",
+    "published": "2015-03-13T23:14:22.809Z"
+  },
+  {
+    "name": "react",
+    "version": "0.13.1",
+    "published": "2015-03-17T00:01:25.829Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.5.3",
+    "published": "2015-04-08T03:01:17.936Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.5.4",
+    "published": "2015-04-08T18:49:41.745Z"
+  },
+  {
+    "name": "react",
+    "version": "0.13.2",
+    "published": "2015-04-18T22:38:01.925Z"
+  },
+  {
+    "name": "react",
+    "version": "0.13.3",
+    "published": "2015-05-08T23:40:52.344Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.1.0",
+    "published": "2015-05-31T11:34:20.617Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.2.0",
+    "published": "2015-06-02T14:29:57.175Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.2.1",
+    "published": "2015-06-02T14:36:43.995Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.2.2",
+    "published": "2015-06-02T18:42:57.982Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.3.0",
+    "published": "2015-06-03T00:51:58.577Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.3.1",
+    "published": "2015-06-03T00:53:08.796Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.4.0",
+    "published": "2015-06-03T11:04:59.486Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.5.0",
+    "published": "2015-06-03T11:33:12.657Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.5.1",
+    "published": "2015-06-03T12:06:30.666Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.6.0",
+    "published": "2015-06-04T12:23:17.185Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.6.1",
+    "published": "2015-06-04T13:42:40.279Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.6.2",
+    "published": "2015-06-04T14:02:11.291Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.7.0",
+    "published": "2015-06-05T23:29:10.331Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.8.0",
+    "published": "2015-06-06T16:42:38.243Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.8.1",
+    "published": "2015-06-06T20:56:03.719Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.9.0",
+    "published": "2015-06-09T09:55:30.594Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.10.0",
+    "published": "2015-06-13T04:34:52.488Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.10.1",
+    "published": "2015-06-13T20:13:05.091Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.11.0",
+    "published": "2015-06-14T19:24:00.384Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.11.1",
+    "published": "2015-06-16T15:24:28.227Z"
+  },
+  {
+    "name": "redux",
+    "version": "0.12.0",
+    "published": "2015-06-19T00:36:11.994Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.1.0",
+    "published": "2015-07-11T21:06:55.874Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.2.0",
+    "published": "2015-07-13T19:44:59.404Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.2.1",
+    "published": "2015-07-13T19:49:29.083Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.2.2",
+    "published": "2015-07-14T13:22:16.967Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.3.0",
+    "published": "2015-08-07T10:10:02.304Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.4.0",
+    "published": "2015-08-07T10:29:28.104Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.5.0",
+    "published": "2015-08-07T14:26:31.846Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.5.1",
+    "published": "2015-08-07T19:48:41.669Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.5.2",
+    "published": "2015-08-08T00:23:16.420Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.5.3",
+    "published": "2015-08-08T00:33:33.179Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.6.0",
+    "published": "2015-08-08T13:26:52.284Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.7.0",
+    "published": "2015-08-09T17:33:01.496Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.8.0",
+    "published": "2015-08-09T21:18:51.542Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.8.1",
+    "published": "2015-08-11T16:19:38.168Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.8.2",
+    "published": "2015-08-11T19:10:46.710Z"
+  },
+  {
+    "name": "redux",
+    "version": "1.0.0",
+    "published": "2015-08-14T16:12:19.131Z"
+  },
+  {
+    "name": "redux",
+    "version": "1.0.1",
+    "published": "2015-08-15T10:21:22.386Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "0.9.0",
+    "published": "2015-08-17T15:14:41.003Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "1.0.0",
+    "published": "2015-08-24T17:22:17.658Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "1.0.1",
+    "published": "2015-08-25T17:36:53.369Z"
+  },
+  {
+    "name": "redux",
+    "version": "2.0.0",
+    "published": "2015-09-01T01:26:23.002Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "2.0.0",
+    "published": "2015-09-01T01:32:24.625Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "2.1.0",
+    "published": "2015-09-03T20:18:25.094Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "2.1.1",
+    "published": "2015-09-06T23:41:20.756Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.0",
+    "published": "2015-09-12T23:50:19.553Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "2.1.2",
+    "published": "2015-09-12T23:55:58.643Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.6.0",
+    "published": "2015-09-21T20:20:20.241Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "3.0.0",
+    "published": "2015-09-24T12:28:19.419Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.1",
+    "published": "2015-09-25T22:26:23.545Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.2",
+    "published": "2015-09-26T09:02:42.993Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "3.0.1",
+    "published": "2015-09-28T12:37:32.797Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.7.0",
+    "published": "2015-09-29T06:36:55.850Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "3.1.0",
+    "published": "2015-10-05T08:48:21.628Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.0",
+    "published": "2015-10-07T17:27:39.042Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.0",
+    "published": "2015-10-07T17:29:35.289Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.0",
+    "published": "2015-10-15T12:26:59.749Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.3",
+    "published": "2015-10-20T13:16:58.770Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.4",
+    "published": "2015-10-23T11:50:44.534Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.1",
+    "published": "2015-10-28T21:36:05.173Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.1",
+    "published": "2015-10-28T21:36:14.876Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.2",
+    "published": "2015-11-02T19:55:14.560Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.2",
+    "published": "2015-11-02T19:55:21.088Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.3",
+    "published": "2015-11-19T02:26:48.974Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.3",
+    "published": "2015-11-19T02:26:57.036Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.8.0",
+    "published": "2015-12-11T19:09:50.663Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.5",
+    "published": "2015-12-12T17:46:06.649Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "3.1.1",
+    "published": "2015-12-12T18:15:48.787Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.1",
+    "published": "2015-12-12T19:21:44.122Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "3.1.2",
+    "published": "2015-12-12T19:36:59.056Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.8.1",
+    "published": "2015-12-15T03:44:16.229Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.2",
+    "published": "2015-12-20T02:27:34.409Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.3",
+    "published": "2015-12-22T12:46:54.130Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.4",
+    "published": "2015-12-23T11:21:30.921Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.5",
+    "published": "2015-12-24T16:24:27.631Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.0.6",
+    "published": "2015-12-28T22:21:12.628Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.4",
+    "published": "2015-12-29T22:00:13.038Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.4",
+    "published": "2015-12-29T22:00:21.565Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.5",
+    "published": "2015-12-29T22:39:56.148Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.5",
+    "published": "2015-12-29T22:40:03.262Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.6",
+    "published": "2016-01-06T23:52:45.571Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.6",
+    "published": "2016-01-06T23:52:52.338Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.9.0",
+    "published": "2016-01-18T18:19:24.356Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.9.1",
+    "published": "2016-01-24T22:19:01.689Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.0.6",
+    "published": "2016-01-25T01:27:03.248Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.0",
+    "published": "2016-01-28T18:11:34.685Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.1.0",
+    "published": "2016-01-28T18:21:21.392Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.1",
+    "published": "2016-01-28T18:51:13.929Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.7",
+    "published": "2016-01-28T19:59:21.186Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.7",
+    "published": "2016-01-28T19:59:29.509Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.2",
+    "published": "2016-01-28T20:00:46.814Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.1.1",
+    "published": "2016-01-28T20:02:59.762Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.3",
+    "published": "2016-01-29T17:24:13.190Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.1.2",
+    "published": "2016-01-29T17:39:58.115Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.4",
+    "published": "2016-01-29T17:48:28.266Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.5",
+    "published": "2016-01-30T09:40:53.581Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.6",
+    "published": "2016-01-31T02:02:05.220Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.1.7",
+    "published": "2016-01-31T23:16:04.715Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.2.0",
+    "published": "2016-02-01T17:39:00.809Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.2.0",
+    "published": "2016-02-01T18:14:47.229Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.2.1",
+    "published": "2016-02-02T11:56:28.459Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.2.1",
+    "published": "2016-02-02T13:20:36.191Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.3.0",
+    "published": "2016-02-04T19:25:59.496Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.0",
+    "published": "2016-02-05T21:58:50.607Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.3.0",
+    "published": "2016-02-05T22:07:27.815Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.3.1",
+    "published": "2016-02-06T22:10:34.478Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.1",
+    "published": "2016-03-13T00:09:46.315Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.8",
+    "published": "2016-03-29T16:19:44.344Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.8",
+    "published": "2016-03-29T16:19:51.077Z"
+  },
+  {
+    "name": "react",
+    "version": "15.0.0",
+    "published": "2016-04-07T21:25:42.928Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.0.0",
+    "published": "2016-04-07T21:25:44.824Z"
+  },
+  {
+    "name": "react",
+    "version": "15.0.1",
+    "published": "2016-04-08T18:24:01.947Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.0.1",
+    "published": "2016-04-08T18:24:03.871Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.4.0",
+    "published": "2016-04-08T22:57:37.173Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.2",
+    "published": "2016-04-08T23:19:18.690Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.3",
+    "published": "2016-04-12T17:51:20.347Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.4",
+    "published": "2016-04-12T19:18:08.135Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.5",
+    "published": "2016-04-14T16:14:39.923Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.5.0",
+    "published": "2016-04-20T00:03:47.904Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.5.1",
+    "published": "2016-04-20T10:31:17.807Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.10.0",
+    "published": "2016-04-21T04:52:22.553Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.5.2",
+    "published": "2016-04-24T12:20:45.108Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.11.0",
+    "published": "2016-04-27T04:19:52.831Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.0.2",
+    "published": "2016-04-30T00:38:21.736Z"
+  },
+  {
+    "name": "react",
+    "version": "15.0.2",
+    "published": "2016-04-30T00:38:26.753Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.11.1",
+    "published": "2016-05-17T15:59:30.342Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.1.0",
+    "published": "2016-05-20T23:06:19.582Z"
+  },
+  {
+    "name": "react",
+    "version": "15.1.0",
+    "published": "2016-05-20T23:06:26.234Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.12.0",
+    "published": "2016-06-01T05:22:58.397Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.2.0",
+    "published": "2016-07-01T18:52:18.934Z"
+  },
+  {
+    "name": "react",
+    "version": "15.2.0",
+    "published": "2016-07-01T18:52:24.535Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.2.1",
+    "published": "2016-07-08T22:31:06.338Z"
+  },
+  {
+    "name": "react",
+    "version": "15.2.1",
+    "published": "2016-07-08T22:31:10.383Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.13.0",
+    "published": "2016-07-13T19:42:43.558Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.13.1",
+    "published": "2016-07-16T17:13:24.859Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.0.0",
+    "published": "2016-07-18T21:49:37.594Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.1.0",
+    "published": "2016-07-22T15:40:24.439Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.2.0",
+    "published": "2016-07-28T19:51:43.562Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.3.0",
+    "published": "2016-07-29T18:38:13.089Z"
+  },
+  {
+    "name": "react",
+    "version": "15.3.0",
+    "published": "2016-07-29T18:38:21.959Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.2.1",
+    "published": "2016-08-01T14:57:39.677Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.3.1",
+    "published": "2016-08-19T18:50:14.130Z"
+  },
+  {
+    "name": "react",
+    "version": "15.3.1",
+    "published": "2016-08-19T18:50:25.665Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.2.2",
+    "published": "2016-08-22T18:41:30.498Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.2.3",
+    "published": "2016-08-25T13:41:33.001Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.14.0",
+    "published": "2016-08-27T18:30:22.182Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.3.0",
+    "published": "2016-09-01T23:49:40.831Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.3.1",
+    "published": "2016-09-02T12:57:21.872Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.4.0",
+    "published": "2016-09-02T21:04:55.548Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.4.1",
+    "published": "2016-09-03T18:59:26.945Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.6.0",
+    "published": "2016-09-04T18:24:17.057Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.4.2",
+    "published": "2016-09-18T11:47:38.006Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.4.3",
+    "published": "2016-09-18T21:31:12.458Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.3.2",
+    "published": "2016-09-19T17:46:57.685Z"
+  },
+  {
+    "name": "react",
+    "version": "15.3.2",
+    "published": "2016-09-19T17:47:04.705Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.5.0",
+    "published": "2016-09-23T21:33:10.524Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.5.1",
+    "published": "2016-09-23T23:52:30.072Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.6.0",
+    "published": "2016-09-25T12:04:18.383Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.6.1",
+    "published": "2016-09-27T14:57:17.276Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.15.0",
+    "published": "2016-10-11T04:40:41.633Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.15.1",
+    "published": "2016-10-15T06:39:23.761Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.15.2",
+    "published": "2016-10-18T01:33:20.989Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.7.0",
+    "published": "2016-10-22T20:50:11.726Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.6",
+    "published": "2016-11-14T12:11:00.787Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.4.0",
+    "published": "2016-11-16T14:32:55.418Z"
+  },
+  {
+    "name": "react",
+    "version": "15.4.0",
+    "published": "2016-11-16T14:33:05.693Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.4.1",
+    "published": "2016-11-23T01:59:08.303Z"
+  },
+  {
+    "name": "react",
+    "version": "15.4.1",
+    "published": "2016-11-23T01:59:14.936Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.15.3",
+    "published": "2016-11-27T21:59:11.250Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.8.0",
+    "published": "2016-12-03T16:03:45.234Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.8.1",
+    "published": "2016-12-04T09:04:17.463Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.8.2",
+    "published": "2016-12-07T21:31:14.579Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.8.3",
+    "published": "2016-12-08T15:45:32.673Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.8.4",
+    "published": "2016-12-11T11:50:30.994Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.0",
+    "published": "2016-12-14T04:51:49.457Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.1",
+    "published": "2016-12-14T17:24:29.275Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "0.0.0",
+    "published": "2016-12-14T22:04:07.610Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.4.2",
+    "published": "2017-01-06T20:16:11.024Z"
+  },
+  {
+    "name": "react",
+    "version": "15.4.2",
+    "published": "2017-01-06T20:16:25.738Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.8.5",
+    "published": "2017-01-09T15:51:46.983Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.2",
+    "published": "2017-01-11T01:45:53.008Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.9.0",
+    "published": "2017-02-11T03:33:48.727Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.3",
+    "published": "2017-02-23T19:16:00.066Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.9.1",
+    "published": "2017-02-26T02:13:51.790Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.9.2",
+    "published": "2017-02-26T13:50:54.502Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.9.3",
+    "published": "2017-02-28T17:45:28.716Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.9.4",
+    "published": "2017-03-06T19:12:10.720Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "0.9.5",
+    "published": "2017-03-09T21:18:49.108Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.0.0",
+    "published": "2017-03-11T02:59:22.764Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.0.0",
+    "published": "2017-03-22T12:56:14.692Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.0.1",
+    "published": "2017-03-22T13:08:20.838Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.0.2",
+    "published": "2017-03-22T13:57:11.168Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.0.3",
+    "published": "2017-03-22T14:47:19.997Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.0.4",
+    "published": "2017-03-23T07:02:17.704Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.7",
+    "published": "2017-03-30T16:05:38.152Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.1.4",
+    "published": "2017-03-31T14:37:25.412Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.16.0",
+    "published": "2017-04-01T02:31:09.040Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.2.4",
+    "published": "2017-04-03T06:51:54.874Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.5.0",
+    "published": "2017-04-07T21:39:55.712Z"
+  },
+  {
+    "name": "react",
+    "version": "15.5.0",
+    "published": "2017-04-07T21:40:05.461Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.5.1",
+    "published": "2017-04-07T22:40:57.597Z"
+  },
+  {
+    "name": "react",
+    "version": "15.5.1",
+    "published": "2017-04-07T22:41:03.767Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.5.2",
+    "published": "2017-04-08T01:39:02.809Z"
+  },
+  {
+    "name": "react",
+    "version": "15.5.2",
+    "published": "2017-04-08T01:39:09.846Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.5.3",
+    "published": "2017-04-08T04:10:06.023Z"
+  },
+  {
+    "name": "react",
+    "version": "15.5.3",
+    "published": "2017-04-08T04:10:15.548Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.16.1",
+    "published": "2017-04-08T18:51:59.217Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.4",
+    "published": "2017-04-09T13:48:05.593Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.8",
+    "published": "2017-04-11T00:05:33.878Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.1.0",
+    "published": "2017-04-11T18:52:43.379Z"
+  },
+  {
+    "name": "react",
+    "version": "15.5.4",
+    "published": "2017-04-11T19:30:01.834Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.5.4",
+    "published": "2017-04-11T19:30:09.326Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.9",
+    "published": "2017-04-12T15:45:16.662Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.9",
+    "published": "2017-04-12T15:45:23.918Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.1.1",
+    "published": "2017-04-12T19:30:12.422Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.5",
+    "published": "2017-05-18T04:33:14.010Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.0",
+    "published": "2017-05-19T04:36:24.974Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.1",
+    "published": "2017-05-19T19:22:24.603Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.2",
+    "published": "2017-05-20T18:20:59.227Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.3",
+    "published": "2017-05-21T19:56:36.349Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.4",
+    "published": "2017-05-22T11:43:55.129Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.5",
+    "published": "2017-05-22T16:08:37.527Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.6",
+    "published": "2017-05-24T12:22:36.072Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.7",
+    "published": "2017-05-27T11:43:40.482Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.2.5",
+    "published": "2017-05-29T09:13:56.262Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.2.6",
+    "published": "2017-05-29T12:22:28.996Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.2.7",
+    "published": "2017-05-31T14:17:22.683Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.16.2",
+    "published": "2017-06-03T19:29:23.765Z"
+  },
+  {
+    "name": "react",
+    "version": "15.6.0",
+    "published": "2017-06-13T17:29:20.573Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.6.0",
+    "published": "2017-06-13T17:29:43.818Z"
+  },
+  {
+    "name": "react",
+    "version": "15.6.1",
+    "published": "2017-06-15T00:05:12.756Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.6.1",
+    "published": "2017-06-15T00:05:24.745Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.7.0",
+    "published": "2017-06-17T02:43:26.465Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.7.1",
+    "published": "2017-06-26T02:59:48.516Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.8",
+    "published": "2017-06-28T16:30:42.702Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.9",
+    "published": "2017-06-29T12:11:46.948Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.10",
+    "published": "2017-06-29T18:04:03.084Z"
+  },
+  {
+    "name": "redux",
+    "version": "3.7.2",
+    "published": "2017-07-13T00:13:14.361Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.1.2",
+    "published": "2017-07-16T23:43:27.469Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.6",
+    "published": "2017-08-08T18:28:19.267Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.11",
+    "published": "2017-08-09T03:40:27.594Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.2.0",
+    "published": "2017-08-24T01:21:03.987Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.2.1",
+    "published": "2017-08-24T23:59:55.392Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.2.2",
+    "published": "2017-08-25T00:09:28.151Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.12",
+    "published": "2017-08-28T02:27:12.346Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.13",
+    "published": "2017-09-02T20:58:40.803Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.3.0",
+    "published": "2017-09-08T06:53:03.937Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.3.1",
+    "published": "2017-09-08T07:06:40.500Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.3.2",
+    "published": "2017-09-08T07:13:05.560Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.4.0",
+    "published": "2017-09-08T08:19:39.448Z"
+  },
+  {
+    "name": "react",
+    "version": "15.6.2",
+    "published": "2017-09-26T00:10:25.817Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.6.2",
+    "published": "2017-09-26T00:10:29.803Z"
+  },
+  {
+    "name": "react",
+    "version": "16.0.0",
+    "published": "2017-09-26T16:00:29.805Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.0.0",
+    "published": "2017-09-26T16:00:34.718Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.14",
+    "published": "2017-09-27T00:20:11.914Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.17.0",
+    "published": "2017-10-21T18:01:30.232Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.5.0",
+    "published": "2017-10-27T13:33:06.687Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.15",
+    "published": "2017-10-30T21:49:17.313Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.16",
+    "published": "2017-10-31T10:41:30.168Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.0.17",
+    "published": "2017-11-03T18:27:46.312Z"
+  },
+  {
+    "name": "react",
+    "version": "16.1.0",
+    "published": "2017-11-09T15:04:37.798Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.1.0",
+    "published": "2017-11-09T15:04:38.346Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.17.1",
+    "published": "2017-11-11T23:24:40.635Z"
+  },
+  {
+    "name": "react",
+    "version": "16.1.1",
+    "published": "2017-11-13T16:13:13.540Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.1.1",
+    "published": "2017-11-13T16:13:14.142Z"
+  },
+  {
+    "name": "react",
+    "version": "16.2.0",
+    "published": "2017-11-28T21:32:28.829Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.2.0",
+    "published": "2017-11-28T21:32:29.110Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.6.0",
+    "published": "2017-12-06T08:22:15.839Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.7.1",
+    "published": "2017-12-07T06:21:20.673Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.1.0",
+    "published": "2018-01-15T00:53:56.183Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.7.2",
+    "published": "2018-01-19T12:36:27.657Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.7.3",
+    "published": "2018-01-24T16:18:18.802Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.7.4",
+    "published": "2018-01-24T16:26:47.488Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.7.5",
+    "published": "2018-01-24T16:42:14.105Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.8.0",
+    "published": "2018-01-26T16:11:49.747Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.1.1",
+    "published": "2018-02-09T13:21:06.031Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.0.7",
+    "published": "2018-02-16T21:44:37.174Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.18.0",
+    "published": "2018-02-19T23:28:54.151Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.9.0",
+    "published": "2018-03-05T09:47:06.091Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.9.1",
+    "published": "2018-03-12T10:03:01.025Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.9",
+    "published": "2018-03-21T16:31:27.808Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.3.0",
+    "published": "2018-03-29T20:16:21.022Z"
+  },
+  {
+    "name": "react",
+    "version": "16.3.0",
+    "published": "2018-03-29T20:16:22.948Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.9.2",
+    "published": "2018-04-02T16:53:15.602Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.1.2",
+    "published": "2018-04-02T23:48:39.865Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.1.3",
+    "published": "2018-04-03T17:30:57.579Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.1.4",
+    "published": "2018-04-04T00:27:55.140Z"
+  },
+  {
+    "name": "react",
+    "version": "16.3.1",
+    "published": "2018-04-04T00:39:05.128Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.3.1",
+    "published": "2018-04-04T00:39:16.342Z"
+  },
+  {
+    "name": "react",
+    "version": "16.3.2",
+    "published": "2018-04-16T15:32:25.525Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.3.2",
+    "published": "2018-04-16T15:32:42.988Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.0.0",
+    "published": "2018-04-17T19:25:08.035Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.9.3",
+    "published": "2018-05-14T07:23:57.693Z"
+  },
+  {
+    "name": "react",
+    "version": "16.4.0",
+    "published": "2018-05-24T00:39:50.356Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.4.0",
+    "published": "2018-05-24T00:39:50.456Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.9.4",
+    "published": "2018-05-24T15:25:21.799Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.9.5",
+    "published": "2018-05-24T16:06:27.141Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.0",
+    "published": "2018-05-29T15:54:03.827Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.1",
+    "published": "2018-05-29T15:58:05.172Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.3.0",
+    "published": "2018-06-06T15:31:35.022Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.3.1",
+    "published": "2018-06-06T19:27:51.418Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.2",
+    "published": "2018-06-11T14:08:21.144Z"
+  },
+  {
+    "name": "react",
+    "version": "16.4.1",
+    "published": "2018-06-13T16:47:05.961Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.4.1",
+    "published": "2018-06-13T16:47:20.487Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.3",
+    "published": "2018-06-18T07:12:32.808Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.4",
+    "published": "2018-07-24T10:48:04.176Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.0.1",
+    "published": "2018-08-01T18:47:12.808Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.1.2",
+    "published": "2018-08-01T18:55:18.353Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.2.1",
+    "published": "2018-08-01T18:57:20.123Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.3.3",
+    "published": "2018-08-01T18:58:58.451Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.4.2",
+    "published": "2018-08-01T19:01:01.146Z"
+  },
+  {
+    "name": "react",
+    "version": "16.4.2",
+    "published": "2018-08-01T19:01:56.155Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "1.1.5",
+    "published": "2018-08-22T18:58:59.558Z"
+  },
+  {
+    "name": "react",
+    "version": "16.5.0",
+    "published": "2018-09-06T16:44:42.930Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.5.0",
+    "published": "2018-09-06T16:44:51.243Z"
+  },
+  {
+    "name": "react",
+    "version": "16.5.1",
+    "published": "2018-09-13T18:34:18.952Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.5.1",
+    "published": "2018-09-13T18:34:20.794Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.5",
+    "published": "2018-09-18T06:46:29.687Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.10.6",
+    "published": "2018-09-18T07:34:56.415Z"
+  },
+  {
+    "name": "react",
+    "version": "16.5.2",
+    "published": "2018-09-18T19:31:03.834Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.5.2",
+    "published": "2018-09-18T19:31:10.943Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.11.0",
+    "published": "2018-09-21T13:40:59.341Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.0.0",
+    "published": "2018-09-26T18:04:38.036Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.0.1",
+    "published": "2018-09-28T12:54:53.055Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.0.2",
+    "published": "2018-10-01T16:22:29.565Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.0.3",
+    "published": "2018-10-02T00:55:34.267Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.0.4",
+    "published": "2018-10-03T20:02:17.670Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.12.0",
+    "published": "2018-10-12T15:08:17.155Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.0.1",
+    "published": "2018-10-13T04:31:05.628Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.0.5",
+    "published": "2018-10-14T19:05:54.637Z"
+  },
+  {
+    "name": "react",
+    "version": "16.6.0",
+    "published": "2018-10-23T23:36:06.553Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.6.0",
+    "published": "2018-10-23T23:36:09.900Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.1.0",
+    "published": "2018-10-25T20:27:08.893Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.0",
+    "published": "2018-10-30T03:41:10.360Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.1",
+    "published": "2018-11-01T03:30:08.747Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.12.1",
+    "published": "2018-11-02T07:11:52.455Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.0",
+    "published": "2018-11-05T15:28:02.481Z"
+  },
+  {
+    "name": "react",
+    "version": "16.6.1",
+    "published": "2018-11-07T02:33:22.373Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.6.1",
+    "published": "2018-11-07T02:33:26.715Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.1.1",
+    "published": "2018-11-10T21:43:35.004Z"
+  },
+  {
+    "name": "react",
+    "version": "16.6.2",
+    "published": "2018-11-13T02:38:24.686Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.6.2",
+    "published": "2018-11-13T02:39:54.918Z"
+  },
+  {
+    "name": "react",
+    "version": "16.6.3",
+    "published": "2018-11-13T03:52:56.452Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.6.3",
+    "published": "2018-11-13T03:53:05.230Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "6.0.0",
+    "published": "2018-12-05T01:02:29.569Z"
+  },
+  {
+    "name": "react",
+    "version": "16.7.0",
+    "published": "2018-12-20T01:19:48.948Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.7.0",
+    "published": "2018-12-20T01:20:03.120Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.2",
+    "published": "2018-12-23T18:53:29.433Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.3",
+    "published": "2019-01-04T18:54:05.060Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.1",
+    "published": "2019-02-04T08:51:41.389Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.0",
+    "published": "2019-02-06T08:00:25.150Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.0",
+    "published": "2019-02-06T08:00:45.674Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.1",
+    "published": "2019-02-06T18:15:25.739Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.1",
+    "published": "2019-02-06T18:15:40.963Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.4",
+    "published": "2019-02-10T21:48:44.398Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.5",
+    "published": "2019-02-11T16:37:06.235Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.2",
+    "published": "2019-02-14T19:01:24.755Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.2",
+    "published": "2019-02-14T19:01:39.847Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "6.0.1",
+    "published": "2019-02-20T03:57:48.108Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.3",
+    "published": "2019-02-21T18:02:55.406Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.3",
+    "published": "2019-02-21T18:03:12.085Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.4",
+    "published": "2019-03-05T23:11:17.853Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.4",
+    "published": "2019-03-05T23:11:27.913Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.6",
+    "published": "2019-03-06T23:17:38.078Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.7",
+    "published": "2019-03-07T00:40:41.144Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "2.1.8",
+    "published": "2019-03-07T00:53:37.511Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "4.4.10",
+    "published": "2019-03-14T11:59:31.242Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "4.4.0",
+    "published": "2019-03-16T01:07:10.793Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.0.0",
+    "published": "2019-03-18T16:12:54.762Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.2",
+    "published": "2019-03-20T11:50:47.318Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.3",
+    "published": "2019-03-22T12:57:13.439Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.5",
+    "published": "2019-03-22T16:40:20.510Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.5",
+    "published": "2019-03-22T16:40:36.960Z"
+  },
+  {
+    "name": "react",
+    "version": "16.8.6",
+    "published": "2019-03-28T06:23:35.650Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.8.6",
+    "published": "2019-03-28T06:24:04.243Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.4",
+    "published": "2019-03-29T14:49:52.065Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.5",
+    "published": "2019-03-29T14:54:25.907Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.6",
+    "published": "2019-03-29T14:57:14.375Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.7",
+    "published": "2019-03-29T15:06:59.054Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.8",
+    "published": "2019-03-29T15:11:16.692Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.9",
+    "published": "2019-04-06T07:58:10.487Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.10",
+    "published": "2019-04-06T08:12:07.725Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.11",
+    "published": "2019-04-06T14:24:00.598Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.0.0",
+    "published": "2019-04-09T03:54:21.361Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.0.1",
+    "published": "2019-04-09T04:11:23.725Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.0.2",
+    "published": "2019-04-12T20:24:18.452Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.0.0",
+    "published": "2019-04-22T18:50:48.854Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.0.3",
+    "published": "2019-04-28T16:37:37.835Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.0.1",
+    "published": "2019-05-08T17:32:05.351Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.12",
+    "published": "2019-05-30T15:13:57.626Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.19.0",
+    "published": "2019-05-30T16:13:16.930Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "0.0.0",
+    "published": "2019-05-30T17:36:29.400Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.0",
+    "published": "2019-05-30T17:47:45.996Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.1",
+    "published": "2019-05-30T17:55:39.763Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.13",
+    "published": "2019-05-30T20:59:12.615Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.18.1",
+    "published": "2019-06-01T00:46:36.277Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.13.14",
+    "published": "2019-06-04T11:36:28.777Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.0.1",
+    "published": "2019-06-04T22:56:03.639Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.0.0",
+    "published": "2019-06-06T09:28:41.060Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.1.0",
+    "published": "2019-06-07T08:28:49.545Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.14.0",
+    "published": "2019-06-07T10:14:02.165Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.1.0",
+    "published": "2019-06-11T02:11:02.313Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.2",
+    "published": "2019-06-24T18:50:34.815Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.3",
+    "published": "2019-06-25T12:57:30.107Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.4",
+    "published": "2019-06-25T14:24:42.031Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.15.0",
+    "published": "2019-06-28T07:24:23.318Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.15.1",
+    "published": "2019-06-28T08:56:03.861Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "0.0.0",
+    "published": "2019-07-08T15:45:54.187Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.0.0",
+    "published": "2019-07-08T16:24:45.206Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.0.2",
+    "published": "2019-07-09T02:11:09.466Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.0.3",
+    "published": "2019-07-09T16:06:37.804Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.0.4",
+    "published": "2019-07-10T19:02:21.477Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.15.2",
+    "published": "2019-07-12T10:08:59.391Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.5",
+    "published": "2019-07-12T17:08:44.555Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.2.0",
+    "published": "2019-07-20T09:16:54.169Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.2.1",
+    "published": "2019-07-20T10:01:56.113Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.2.2",
+    "published": "2019-07-20T11:35:11.497Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.6",
+    "published": "2019-07-23T11:55:03.562Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.2.3",
+    "published": "2019-07-23T14:18:46.286Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.7",
+    "published": "2019-07-26T14:21:56.579Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "4.2.4",
+    "published": "2019-07-29T08:05:16.798Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.8",
+    "published": "2019-08-06T20:18:40.210Z"
+  },
+  {
+    "name": "react",
+    "version": "16.9.0",
+    "published": "2019-08-08T21:09:37.704Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.9.0",
+    "published": "2019-08-08T21:09:52.747Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "8.0.9",
+    "published": "2019-08-08T22:57:20.092Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.0.0",
+    "published": "2019-08-09T19:59:57.592Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.0.1",
+    "published": "2019-08-09T20:15:32.047Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.0.2",
+    "published": "2019-08-09T20:38:40.334Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.1.0",
+    "published": "2019-08-09T22:37:50.473Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.1.0",
+    "published": "2019-08-10T17:38:43.706Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.1.1",
+    "published": "2019-08-12T23:44:00.425Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.1.1",
+    "published": "2019-08-13T19:42:09.998Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.1.2",
+    "published": "2019-08-15T19:31:35.423Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.1.3",
+    "published": "2019-08-16T21:12:43.237Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.0.1",
+    "published": "2019-08-19T03:37:19.298Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.15.3",
+    "published": "2019-08-21T07:59:40.121Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.1.0",
+    "published": "2019-08-21T16:58:30.765Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.1.1",
+    "published": "2019-08-26T01:52:21.660Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "5.0.0",
+    "published": "2019-08-27T09:45:59.832Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "6.0.0",
+    "published": "2019-08-27T15:30:17.946Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.0.0",
+    "published": "2019-08-28T08:21:33.653Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.1.4",
+    "published": "2019-09-03T21:44:57.833Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.0.1",
+    "published": "2019-09-10T10:09:23.767Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.1.2",
+    "published": "2019-09-19T17:48:14.187Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.1.0",
+    "published": "2019-09-24T16:50:17.388Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.2.0",
+    "published": "2019-09-26T23:06:20.918Z"
+  },
+  {
+    "name": "react",
+    "version": "16.10.0",
+    "published": "2019-09-27T20:28:13.525Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.10.0",
+    "published": "2019-09-27T20:28:27.330Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.1.1",
+    "published": "2019-09-27T23:06:40.155Z"
+  },
+  {
+    "name": "react",
+    "version": "16.10.1",
+    "published": "2019-09-28T18:18:21.776Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.10.1",
+    "published": "2019-09-28T18:18:35.765Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.1.0",
+    "published": "2019-09-30T08:03:02.739Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.1.1",
+    "published": "2019-09-30T08:47:00.060Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.1.2",
+    "published": "2019-09-30T23:23:33.740Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.2.0",
+    "published": "2019-10-03T04:18:37.513Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.1.2",
+    "published": "2019-10-03T08:54:57.694Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.3.0",
+    "published": "2019-10-03T19:22:40.769Z"
+  },
+  {
+    "name": "react",
+    "version": "16.10.2",
+    "published": "2019-10-03T21:10:56.351Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.10.2",
+    "published": "2019-10-03T21:11:11.156Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.1.1",
+    "published": "2019-10-07T15:11:22.093Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "5.1.2",
+    "published": "2019-10-08T20:13:27.080Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.1.2",
+    "published": "2019-10-09T18:14:38.696Z"
+  },
+  {
+    "name": "react",
+    "version": "16.11.0",
+    "published": "2019-10-22T21:22:52.188Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.11.0",
+    "published": "2019-10-22T21:23:05.497Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.2.0",
+    "published": "2019-10-25T12:05:33.932Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.3.1",
+    "published": "2019-10-30T17:59:52.757Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.2.1",
+    "published": "2019-10-31T14:26:28.691Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.2.2",
+    "published": "2019-10-31T14:37:14.785Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.2.3",
+    "published": "2019-11-01T12:04:58.468Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.16.0",
+    "published": "2019-11-04T13:44:54.280Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.3.2",
+    "published": "2019-11-04T15:01:43.743Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.1.2",
+    "published": "2019-11-06T03:09:05.647Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.1.3",
+    "published": "2019-11-06T04:02:32.917Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "4.2.4",
+    "published": "2019-11-14T15:42:56.032Z"
+  },
+  {
+    "name": "react",
+    "version": "16.12.0",
+    "published": "2019-11-14T23:57:29.304Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.12.0",
+    "published": "2019-11-14T23:57:42.220Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.17.0",
+    "published": "2019-12-02T15:02:02.472Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.3.0",
+    "published": "2019-12-05T00:05:24.841Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.3.3",
+    "published": "2019-12-11T05:55:52.441Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.4.0",
+    "published": "2019-12-13T15:39:42.511Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.2.0",
+    "published": "2019-12-17T17:15:16.773Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "7.2.1",
+    "published": "2019-12-18T09:47:54.832Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.0",
+    "published": "2019-12-19T13:14:21.210Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.1",
+    "published": "2019-12-20T09:08:10.222Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.2",
+    "published": "2019-12-20T09:10:54.584Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.17.1",
+    "published": "2019-12-23T10:49:20.423Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.0.5",
+    "published": "2019-12-24T02:23:00.903Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.17.2",
+    "published": "2019-12-31T11:03:54.924Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.3",
+    "published": "2020-01-03T16:12:56.500Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.19.1",
+    "published": "2020-01-07T17:23:39.782Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.0.0",
+    "published": "2020-01-17T00:03:34.864Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.19.2",
+    "published": "2020-01-22T04:25:53.354Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.0.1",
+    "published": "2020-01-22T13:23:27.245Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.0.2",
+    "published": "2020-01-22T14:39:47.107Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.4",
+    "published": "2020-01-23T04:58:41.215Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.5",
+    "published": "2020-01-28T00:40:47.125Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.17.3",
+    "published": "2020-01-28T07:22:33.588Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.6",
+    "published": "2020-01-28T23:23:56.441Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.0.7",
+    "published": "2020-01-28T23:40:53.471Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.1.0",
+    "published": "2020-01-29T21:27:18.126Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.3.1",
+    "published": "2020-01-31T04:06:02.483Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.1.0",
+    "published": "2020-01-31T19:38:17.935Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.1.1",
+    "published": "2020-02-03T17:33:03.041Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.4.0",
+    "published": "2020-02-14T18:45:39.009Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.1.1",
+    "published": "2020-02-17T10:13:00.133Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.1.2",
+    "published": "2020-02-17T13:26:40.608Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "8.1.3",
+    "published": "2020-02-17T13:51:57.480Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "9.0.0",
+    "published": "2020-02-17T14:42:47.222Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.0.0",
+    "published": "2020-02-17T15:01:32.724Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.0",
+    "published": "2020-02-18T03:43:52.869Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.4.1",
+    "published": "2020-02-22T15:46:22.269Z"
+  },
+  {
+    "name": "react",
+    "version": "16.13.0",
+    "published": "2020-02-26T20:19:52.312Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.13.0",
+    "published": "2020-02-26T20:20:05.399Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "9.5.0",
+    "published": "2020-03-04T19:18:05.183Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.0",
+    "published": "2020-03-12T23:25:54.294Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.1",
+    "published": "2020-03-13T13:30:00.585Z"
+  },
+  {
+    "name": "react",
+    "version": "16.13.1",
+    "published": "2020-03-19T19:53:13.309Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.13.1",
+    "published": "2020-03-19T19:53:23.004Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.4.1",
+    "published": "2020-03-21T00:00:30.559Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.2.0",
+    "published": "2020-03-25T17:00:50.399Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.3.0",
+    "published": "2020-03-26T12:47:21.523Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.18.0",
+    "published": "2020-03-27T13:40:09.359Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.0.1",
+    "published": "2020-03-27T23:47:05.178Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.2",
+    "published": "2020-03-30T16:27:26.517Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.4.0",
+    "published": "2020-04-08T15:02:15.240Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.5.0",
+    "published": "2020-04-09T19:05:59.766Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.0.2",
+    "published": "2020-04-16T10:17:28.499Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.3",
+    "published": "2020-04-20T18:05:13.102Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.1.0",
+    "published": "2020-04-23T11:41:05.285Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.4",
+    "published": "2020-04-30T16:13:22.714Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.6.0",
+    "published": "2020-05-07T18:36:45.643Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.7.0",
+    "published": "2020-05-07T22:09:17.095Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.1.1",
+    "published": "2020-05-08T12:44:08.068Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.1.2",
+    "published": "2020-05-08T20:42:47.224Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.2.0",
+    "published": "2020-05-11T17:12:23.483Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.2.0",
+    "published": "2020-05-12T18:56:40.080Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.2.1",
+    "published": "2020-05-13T20:58:31.972Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.2.2",
+    "published": "2020-05-13T21:26:58.942Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.2.3",
+    "published": "2020-05-13T22:22:51.026Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.2.4",
+    "published": "2020-05-14T16:25:08.392Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.3.0",
+    "published": "2020-05-15T21:51:02.680Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.3.1",
+    "published": "2020-05-17T13:20:47.944Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.19.0",
+    "published": "2020-05-19T10:25:28.145Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.8.0",
+    "published": "2020-05-19T21:58:44.026Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.3.2",
+    "published": "2020-05-20T05:20:11.296Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.3.3",
+    "published": "2020-05-20T22:29:41.125Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.3.4",
+    "published": "2020-05-21T18:42:31.753Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.3.5",
+    "published": "2020-05-22T23:15:25.404Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.19.1",
+    "published": "2020-05-25T19:57:52.791Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.4.0",
+    "published": "2020-05-26T17:17:50.936Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.9.0",
+    "published": "2020-05-28T13:50:06.116Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.19.2",
+    "published": "2020-05-29T07:19:09.443Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.5",
+    "published": "2020-06-01T23:38:29.767Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "10.4.1",
+    "published": "2020-06-01T23:51:15.220Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "1.19.3",
+    "published": "2020-06-02T12:52:02.543Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.0.0",
+    "published": "2020-06-02T18:45:00.544Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.0.6",
+    "published": "2020-06-02T22:15:34.144Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.1.0",
+    "published": "2020-06-04T00:56:18.575Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.2.0",
+    "published": "2020-06-04T13:59:30.219Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.0.1",
+    "published": "2020-06-04T15:47:59.962Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.1.0",
+    "published": "2020-06-04T23:32:46.600Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.2.0",
+    "published": "2020-06-05T13:30:21.195Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.2.1",
+    "published": "2020-06-05T18:06:15.193Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.2.1",
+    "published": "2020-06-05T19:26:21.674Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.3.0",
+    "published": "2020-06-08T18:01:19.390Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.3.1",
+    "published": "2020-06-08T18:14:55.863Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.3.2",
+    "published": "2020-06-09T13:14:21.382Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.4.0",
+    "published": "2020-06-10T04:52:18.364Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.4.1",
+    "published": "2020-06-10T19:18:02.343Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.10.0",
+    "published": "2020-06-11T14:50:07.672Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "11.4.2",
+    "published": "2020-06-11T16:43:06.959Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.10.1",
+    "published": "2020-06-14T04:56:50.047Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.0",
+    "published": "2020-06-15T22:15:37.120Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.1",
+    "published": "2020-06-16T04:53:14.615Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.2",
+    "published": "2020-06-16T16:28:22.724Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.3.0",
+    "published": "2020-06-18T00:28:31.400Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.3",
+    "published": "2020-06-21T01:59:01.637Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.4",
+    "published": "2020-06-21T12:52:55.169Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.5",
+    "published": "2020-06-21T18:29:04.344Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.6",
+    "published": "2020-06-21T22:33:08.938Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.7",
+    "published": "2020-06-22T17:46:49.643Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.0",
+    "published": "2020-06-23T16:31:53.460Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.1",
+    "published": "2020-06-23T21:59:57.373Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.2",
+    "published": "2020-06-24T19:14:23.920Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.8",
+    "published": "2020-06-25T01:53:17.993Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.3",
+    "published": "2020-06-25T04:26:28.002Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.9",
+    "published": "2020-06-25T04:57:22.585Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.0",
+    "published": "2020-06-25T15:56:21.694Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.10",
+    "published": "2020-06-25T20:06:09.770Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.11",
+    "published": "2020-06-25T22:13:20.374Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.4",
+    "published": "2020-07-05T17:29:06.823Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.5",
+    "published": "2020-07-08T18:56:11.763Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.6",
+    "published": "2020-07-13T18:23:24.393Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.7",
+    "published": "2020-07-15T13:16:47.190Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.1",
+    "published": "2020-07-15T13:57:46.018Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.12",
+    "published": "2020-07-22T15:39:10.662Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.13",
+    "published": "2020-07-23T20:52:15.609Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.14",
+    "published": "2020-07-24T20:50:15.130Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.15",
+    "published": "2020-07-25T14:44:06.783Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.1",
+    "published": "2020-07-25T19:15:01.201Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.2",
+    "published": "2020-07-28T18:16:59.418Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.16",
+    "published": "2020-07-28T18:24:19.511Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.0.17",
+    "published": "2020-07-28T18:31:00.401Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.0",
+    "published": "2020-07-31T17:50:04.142Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.8",
+    "published": "2020-08-05T02:14:25.412Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.1",
+    "published": "2020-08-08T00:00:50.038Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.4.2",
+    "published": "2020-08-11T09:44:59.651Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.3",
+    "published": "2020-08-11T18:54:45.401Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.4.3",
+    "published": "2020-08-12T16:51:29.319Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.20.0",
+    "published": "2020-08-21T03:12:48.792Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "10.4.9",
+    "published": "2020-08-21T06:56:20.955Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.4",
+    "published": "2020-08-22T10:42:17.602Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.2",
+    "published": "2020-08-22T23:12:29.854Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.3",
+    "published": "2020-08-24T19:06:30.161Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.0.0",
+    "published": "2020-09-02T18:04:15.652Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.0.1",
+    "published": "2020-09-03T06:40:32.021Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.0.2",
+    "published": "2020-09-03T17:54:53.635Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.4",
+    "published": "2020-09-08T20:25:51.183Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.0.3",
+    "published": "2020-09-13T16:04:19.126Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.0.4",
+    "published": "2020-09-13T18:46:30.030Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.5",
+    "published": "2020-09-14T20:58:18.915Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.6",
+    "published": "2020-09-21T22:52:58.770Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.7",
+    "published": "2020-10-02T22:55:36.352Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.0.0",
+    "published": "2020-10-08T06:10:04.864Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.0.1",
+    "published": "2020-10-08T17:28:53.598Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.1.0",
+    "published": "2020-10-14T13:32:54.997Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.8",
+    "published": "2020-10-14T15:07:03.255Z"
+  },
+  {
+    "name": "react",
+    "version": "0.14.10",
+    "published": "2020-10-14T19:12:25.426Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "0.14.10",
+    "published": "2020-10-14T19:13:04.852Z"
+  },
+  {
+    "name": "react",
+    "version": "15.7.0",
+    "published": "2020-10-14T19:29:53.496Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "15.7.0",
+    "published": "2020-10-14T19:30:17.874Z"
+  },
+  {
+    "name": "react",
+    "version": "16.14.0",
+    "published": "2020-10-14T19:38:05.812Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "16.14.0",
+    "published": "2020-10-14T19:38:26.085Z"
+  },
+  {
+    "name": "react",
+    "version": "17.0.0",
+    "published": "2020-10-20T20:11:47.327Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "17.0.0",
+    "published": "2020-10-20T20:12:22.766Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "3.4.4",
+    "published": "2020-10-20T21:54:43.371Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.9",
+    "published": "2020-10-21T00:19:36.068Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.1.10",
+    "published": "2020-10-22T03:04:01.622Z"
+  },
+  {
+    "name": "react",
+    "version": "17.0.1",
+    "published": "2020-10-22T12:21:45.340Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "17.0.1",
+    "published": "2020-10-22T12:21:58.048Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.0.2",
+    "published": "2020-10-22T13:10:04.360Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.5",
+    "published": "2020-10-23T13:10:35.196Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "4.0.0",
+    "published": "2020-10-23T14:41:06.984Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.21.0",
+    "published": "2020-10-23T16:27:13.883Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.2",
+    "published": "2020-10-26T22:50:16.869Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.1.1",
+    "published": "2020-11-03T19:22:49.682Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.2.0",
+    "published": "2020-11-04T02:47:43.339Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.2.1",
+    "published": "2020-11-11T03:31:06.796Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.2.2",
+    "published": "2020-11-11T06:16:44.719Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.1.2",
+    "published": "2020-11-11T09:05:57.624Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.6",
+    "published": "2020-11-13T14:51:10.642Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.0",
+    "published": "2020-11-18T16:47:07.294Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.1",
+    "published": "2020-11-19T10:45:56.970Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.2",
+    "published": "2020-11-20T23:36:19.023Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "4.0.1",
+    "published": "2020-11-23T05:30:00.952Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.1.0",
+    "published": "2020-11-24T17:41:51.920Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.3.0",
+    "published": "2020-11-30T20:25:42.781Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.4.0",
+    "published": "2020-12-03T01:46:24.685Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.5.0",
+    "published": "2020-12-03T18:55:57.161Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.6.0",
+    "published": "2020-12-14T06:18:50.743Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.21.1",
+    "published": "2020-12-22T04:20:06.101Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.2.0",
+    "published": "2020-12-24T10:04:53.139Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.7",
+    "published": "2020-12-30T01:43:14.073Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.8",
+    "published": "2020-12-30T03:31:47.416Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.3",
+    "published": "2021-01-07T18:05:19.714Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.9",
+    "published": "2021-01-12T19:08:18.983Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.2.1",
+    "published": "2021-01-14T08:40:00.737Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.2.2",
+    "published": "2021-01-20T15:29:30.122Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.6.1",
+    "published": "2021-01-21T14:22:15.950Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.6.2",
+    "published": "2021-01-21T16:12:09.311Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.3.0",
+    "published": "2021-01-27T12:38:34.707Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.6.3",
+    "published": "2021-02-01T21:03:55.731Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.4",
+    "published": "2021-02-02T09:35:10.963Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.5",
+    "published": "2021-02-02T16:40:43.040Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "4.0.2",
+    "published": "2021-02-03T18:58:10.780Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.7.0",
+    "published": "2021-02-11T03:11:41.283Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.4.0",
+    "published": "2021-02-12T21:25:56.511Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.7.1",
+    "published": "2021-02-13T11:46:45.762Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.7.2",
+    "published": "2021-02-22T07:46:44.718Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "4.0.3",
+    "published": "2021-02-22T18:22:29.697Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.7.3",
+    "published": "2021-02-23T12:59:08.055Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.7.4",
+    "published": "2021-02-28T12:14:14.467Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.8.0",
+    "published": "2021-02-28T15:04:40.685Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.8.1",
+    "published": "2021-03-02T12:04:59.391Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.8.2",
+    "published": "2021-03-09T11:25:28.653Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "12.8.3",
+    "published": "2021-03-09T11:34:27.799Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.0",
+    "published": "2021-03-16T19:17:49.441Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.1",
+    "published": "2021-03-17T11:57:15.587Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.2",
+    "published": "2021-03-18T14:01:09.233Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.3",
+    "published": "2021-03-19T12:04:08.206Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.4",
+    "published": "2021-03-19T16:32:21.369Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.5",
+    "published": "2021-03-19T17:52:22.950Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.6",
+    "published": "2021-03-19T19:18:48.710Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.7",
+    "published": "2021-03-22T10:59:11.135Z"
+  },
+  {
+    "name": "react",
+    "version": "17.0.2",
+    "published": "2021-03-22T21:56:19.536Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "17.0.2",
+    "published": "2021-03-22T21:56:33.089Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.3",
+    "published": "2021-03-23T00:16:19.092Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.8",
+    "published": "2021-03-23T09:10:17.651Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.9",
+    "published": "2021-03-23T13:45:46.228Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.10",
+    "published": "2021-03-23T14:14:52.052Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.11",
+    "published": "2021-03-24T19:09:51.795Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.12",
+    "published": "2021-03-24T21:02:18.732Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.13",
+    "published": "2021-03-24T21:39:44.634Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.14",
+    "published": "2021-03-25T09:28:58.074Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.15",
+    "published": "2021-03-25T13:34:03.583Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.11.10",
+    "published": "2021-03-25T15:57:15.663Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.0.16",
+    "published": "2021-03-25T19:27:37.379Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.0",
+    "published": "2021-03-30T09:16:49.669Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.6",
+    "published": "2021-03-30T10:23:37.600Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.1",
+    "published": "2021-03-30T11:43:13.666Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.2",
+    "published": "2021-04-09T21:25:05.661Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.3",
+    "published": "2021-04-14T22:05:58.379Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.5.0",
+    "published": "2021-04-16T11:19:42.173Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.5.1",
+    "published": "2021-04-16T11:22:35.989Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.4",
+    "published": "2021-04-18T08:51:12.715Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.5",
+    "published": "2021-04-19T11:29:06.860Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.12.0",
+    "published": "2021-04-22T11:38:07.398Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.1.0",
+    "published": "2021-04-24T17:44:50.812Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.4",
+    "published": "2021-04-24T18:16:44.954Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.6",
+    "published": "2021-04-28T19:40:34.067Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.7",
+    "published": "2021-04-29T10:35:48.152Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.8",
+    "published": "2021-04-29T11:20:39.630Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.1.9",
+    "published": "2021-05-12T20:14:20.475Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "11.2.7",
+    "published": "2021-05-14T12:44:56.896Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.13.0",
+    "published": "2021-06-03T17:05:38.673Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.14.0",
+    "published": "2021-06-11T14:16:47.710Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.14.1",
+    "published": "2021-06-11T16:24:08.728Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.0.0",
+    "published": "2021-06-23T06:35:59.535Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.2.0",
+    "published": "2021-07-17T15:44:21.667Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.2.1",
+    "published": "2021-07-25T13:59:43.042Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.1.1",
+    "published": "2021-08-03T14:38:10.935Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.2.1",
+    "published": "2021-08-27T22:46:32.564Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.3.0",
+    "published": "2021-09-03T21:58:24.073Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.21.2",
+    "published": "2021-09-04T10:18:50.516Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.21.3",
+    "published": "2021-09-04T19:05:59.101Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.5",
+    "published": "2021-09-04T19:29:24.539Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.21.4",
+    "published": "2021-09-06T15:35:43.073Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.1.0",
+    "published": "2021-09-11T09:58:45.082Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.1.1",
+    "published": "2021-09-27T12:44:39.447Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.22.0",
+    "published": "2021-10-01T05:54:01.140Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.1.2",
+    "published": "2021-10-03T13:19:47.226Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.3.0",
+    "published": "2021-10-10T09:06:48.802Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.23.0",
+    "published": "2021-10-12T15:37:08.278Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.4.0",
+    "published": "2021-10-15T10:33:17.829Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.4.1",
+    "published": "2021-10-15T10:43:44.016Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.4.2",
+    "published": "2021-10-18T14:49:23.102Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "13.5.0",
+    "published": "2021-10-18T17:57:05.525Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.6",
+    "published": "2021-10-25T17:05:23.326Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.24.0",
+    "published": "2021-10-25T17:51:25.987Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.1.2",
+    "published": "2021-10-28T04:39:37.755Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.15.0",
+    "published": "2021-11-02T05:53:51.417Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.0.0",
+    "published": "2021-11-03T20:17:12.507Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.0.1",
+    "published": "2021-11-05T23:06:09.150Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.0.2",
+    "published": "2021-11-09T22:27:14.915Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.15.1",
+    "published": "2021-11-23T13:59:28.863Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.16.0",
+    "published": "2021-12-03T21:10:30.095Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.16.1",
+    "published": "2021-12-06T12:06:39.739Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.1.0",
+    "published": "2021-12-10T18:20:59.834Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.1.1",
+    "published": "2021-12-11T17:27:49.473Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "5.0.0",
+    "published": "2021-12-14T15:54:09.599Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.2.0",
+    "published": "2021-12-17T18:39:06.766Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.2.1",
+    "published": "2021-12-17T20:26:29.271Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.25.0",
+    "published": "2022-01-18T07:14:06.173Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.16.2",
+    "published": "2022-02-03T00:51:26.816Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.26.0",
+    "published": "2022-02-13T14:22:07.992Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.1.3",
+    "published": "2022-02-15T22:55:57.783Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.2.2",
+    "published": "2022-02-28T23:42:01.596Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.1.4",
+    "published": "2022-03-09T14:37:24.706Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.26.1",
+    "published": "2022-03-09T17:13:42.282Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.16.3",
+    "published": "2022-03-24T13:00:59.606Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.0.0",
+    "published": "2022-03-29T07:31:22.292Z"
+  },
+  {
+    "name": "react",
+    "version": "18.0.0",
+    "published": "2022-03-29T16:00:04.223Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "18.0.0",
+    "published": "2022-03-29T16:00:14.901Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.0.0",
+    "published": "2022-03-31T04:59:33.213Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.0.1",
+    "published": "2022-03-31T09:50:17.675Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.7",
+    "published": "2022-03-31T14:13:44.682Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.0.2",
+    "published": "2022-03-31T15:39:48.724Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.0.3",
+    "published": "2022-03-31T17:37:04.418Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.3.0",
+    "published": "2022-03-31T19:46:52.835Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.0.4",
+    "published": "2022-04-01T07:08:55.685Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.8",
+    "published": "2022-04-01T14:05:44.248Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.16.4",
+    "published": "2022-04-05T14:57:16.992Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.1.0",
+    "published": "2022-04-11T08:06:06.553Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.0.1",
+    "published": "2022-04-11T18:10:23.389Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "12.1.5",
+    "published": "2022-04-11T20:14:35.067Z"
+  },
+  {
+    "name": "react-scripts",
+    "version": "5.0.1",
+    "published": "2022-04-12T17:33:23.210Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.1.0",
+    "published": "2022-04-15T18:59:26.814Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.1.1",
+    "published": "2022-04-15T22:11:17.349Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.0",
+    "published": "2022-04-16T17:31:21.694Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.1.1",
+    "published": "2022-04-17T08:58:48.307Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.3.1",
+    "published": "2022-04-17T15:30:58.288Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.2.0",
+    "published": "2022-04-18T21:55:15.566Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.1",
+    "published": "2022-04-20T20:16:34.263Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.27.0",
+    "published": "2022-04-25T16:42:10.109Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.27.1",
+    "published": "2022-04-26T07:36:38.268Z"
+  },
+  {
+    "name": "react",
+    "version": "18.1.0",
+    "published": "2022-04-26T20:40:14.478Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "18.1.0",
+    "published": "2022-04-26T20:40:26.971Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.27.2",
+    "published": "2022-04-27T10:00:58.685Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.0",
+    "published": "2022-05-02T13:06:32.432Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.2.0",
+    "published": "2022-05-03T18:40:16.446Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.0",
+    "published": "2022-05-12T10:44:56.362Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.1",
+    "published": "2022-05-14T09:22:48.899Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.3.2",
+    "published": "2022-05-17T01:49:20.059Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.3.3",
+    "published": "2022-05-18T20:57:11.558Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.2",
+    "published": "2022-05-22T19:19:53.180Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.3.0",
+    "published": "2022-05-28T08:23:03.353Z"
+  },
+  {
+    "name": "react",
+    "version": "18.2.0",
+    "published": "2022-06-14T19:46:38.369Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "18.2.0",
+    "published": "2022-06-14T19:46:48.370Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.1",
+    "published": "2022-06-17T09:15:04.628Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.2",
+    "published": "2022-07-14T10:26:14.050Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.3",
+    "published": "2022-07-14T11:39:19.187Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.4",
+    "published": "2022-07-15T09:28:09.301Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.5",
+    "published": "2022-07-15T09:33:28.321Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.2.6",
+    "published": "2022-07-18T12:12:56.541Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.3.0",
+    "published": "2022-07-19T13:52:05.609Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.2",
+    "published": "2022-07-22T07:01:53.871Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.3",
+    "published": "2022-07-22T07:04:40.628Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.4",
+    "published": "2022-07-22T07:11:13.589Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.4.0",
+    "published": "2022-08-02T12:47:51.669Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.4.1",
+    "published": "2022-08-02T22:36:54.844Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.16.5",
+    "published": "2022-08-04T21:47:42.327Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.4.2",
+    "published": "2022-08-04T22:12:41.404Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.4.3",
+    "published": "2022-08-09T15:25:09.623Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "13.4.0",
+    "published": "2022-09-04T16:52:40.609Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.4.0",
+    "published": "2022-09-13T19:48:13.632Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.4.1",
+    "published": "2022-09-21T20:46:19.567Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "7.2.9",
+    "published": "2022-09-23T04:27:31.937Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.3",
+    "published": "2022-09-23T04:56:51.856Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.4",
+    "published": "2022-09-23T05:05:18.328Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "5.3.4",
+    "published": "2022-10-02T17:10:36.260Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.0.0",
+    "published": "2022-10-04T19:24:14.051Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.4.2",
+    "published": "2022-10-05T21:18:02.422Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.1.0",
+    "published": "2022-10-06T19:19:53.272Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.1.1",
+    "published": "2022-10-07T09:15:00.061Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.1.2",
+    "published": "2022-10-07T10:14:46.118Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.1.3",
+    "published": "2022-10-15T13:42:22.106Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.4.3",
+    "published": "2022-11-01T15:08:22.965Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.5",
+    "published": "2022-11-04T02:39:23.488Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.5",
+    "published": "2022-11-17T14:23:33.477Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.6",
+    "published": "2022-11-18T08:48:51.979Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.0",
+    "published": "2022-11-22T19:06:02.018Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.6.7",
+    "published": "2022-11-29T15:05:59.918Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.4.4",
+    "published": "2022-11-30T20:03:10.516Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.7.0",
+    "published": "2022-12-02T16:43:34.403Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.1",
+    "published": "2022-12-05T19:39:11.122Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.4.5",
+    "published": "2022-12-07T18:16:55.129Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.5.0",
+    "published": "2022-12-16T17:36:35.375Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.6.0",
+    "published": "2022-12-21T18:29:10.188Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.6.1",
+    "published": "2022-12-23T15:58:27.720Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.2",
+    "published": "2022-12-29T06:38:42.365Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.6.2",
+    "published": "2023-01-09T18:23:16.582Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.3",
+    "published": "2023-01-17T17:56:39.473Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.7.0",
+    "published": "2023-01-18T20:44:43.821Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.4",
+    "published": "2023-01-24T17:21:58.022Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.5",
+    "published": "2023-01-26T15:06:37.154Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.8.0",
+    "published": "2023-01-26T18:23:15.119Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.2.6",
+    "published": "2023-01-28T16:41:09.114Z"
+  },
+  {
+    "name": "redux",
+    "version": "4.2.1",
+    "published": "2023-01-28T21:55:18.084Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.0",
+    "published": "2023-01-31T16:55:47.652Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.1",
+    "published": "2023-02-01T23:31:00.077Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.2",
+    "published": "2023-02-03T18:10:48.275Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.8.1",
+    "published": "2023-02-06T18:23:02.406Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.3",
+    "published": "2023-02-13T18:47:20.873Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.0.0",
+    "published": "2023-02-16T22:59:37.036Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.4",
+    "published": "2023-02-22T21:06:23.063Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.8.2",
+    "published": "2023-02-27T20:24:58.472Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.9.0",
+    "published": "2023-03-10T14:54:35.419Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.10.0",
+    "published": "2023-03-29T20:04:49.830Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.7.1",
+    "published": "2023-03-31T13:11:44.363Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.5",
+    "published": "2023-04-05T18:03:03.807Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.3.6",
+    "published": "2023-04-19T19:38:57.160Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.4.0",
+    "published": "2023-04-27T23:05:52.716Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.11.0",
+    "published": "2023-04-28T17:07:02.769Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.11.1",
+    "published": "2023-05-03T20:26:40.676Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.11.2",
+    "published": "2023-05-17T15:31:47.902Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.6",
+    "published": "2023-05-30T23:17:38.716Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.0.7",
+    "published": "2023-05-31T00:31:55.673Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.12.0",
+    "published": "2023-06-06T18:26:26.809Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.12.1",
+    "published": "2023-06-08T16:48:23.457Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.1.0",
+    "published": "2023-06-13T03:17:41.523Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.13.0",
+    "published": "2023-06-14T15:58:00.698Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.1.1",
+    "published": "2023-06-21T01:35:02.617Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.14.0",
+    "published": "2023-06-23T19:57:31.413Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.14.1",
+    "published": "2023-06-30T19:13:32.110Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.14.2",
+    "published": "2023-07-17T20:54:19.824Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "5.17.0",
+    "published": "2023-07-18T12:50:19.096Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.1.2",
+    "published": "2023-07-29T16:08:10.376Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.15.0",
+    "published": "2023-08-10T14:52:14.473Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.0.0",
+    "published": "2023-08-13T16:32:06.346Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.0.1",
+    "published": "2023-08-18T05:28:29.942Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.0",
+    "published": "2023-08-23T04:30:43.293Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.1",
+    "published": "2023-08-23T15:19:23.173Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.2",
+    "published": "2023-08-24T08:09:55.470Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.5.0",
+    "published": "2023-08-26T19:10:50.109Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.3",
+    "published": "2023-09-06T02:56:35.264Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.16.0",
+    "published": "2023-09-13T16:37:49.610Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.5.0",
+    "published": "2023-09-14T15:33:59.585Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.5.1",
+    "published": "2023-09-15T18:08:32.068Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.5.1",
+    "published": "2023-09-26T18:22:12.460Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "8.1.3",
+    "published": "2023-10-01T02:03:05.517Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.8.0",
+    "published": "2023-10-04T07:08:59.128Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.4",
+    "published": "2023-10-12T04:58:31.439Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.17.0",
+    "published": "2023-10-16T15:50:05.302Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.0",
+    "published": "2023-10-26T21:15:55.685Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.18.0",
+    "published": "2023-10-31T14:24:16.741Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.1.0",
+    "published": "2023-11-08T06:56:16.741Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.1",
+    "published": "2023-11-08T15:09:28.450Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.2",
+    "published": "2023-11-14T20:36:10.212Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.19.0",
+    "published": "2023-11-16T14:42:02.080Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.1.1",
+    "published": "2023-11-17T14:51:57.346Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.1.2",
+    "published": "2023-11-17T15:49:56.176Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.20.0",
+    "published": "2023-11-22T16:56:32.720Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.5",
+    "published": "2023-11-30T19:41:03.320Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.20.1",
+    "published": "2023-12-01T19:43:48.731Z"
+  },
+  {
+    "name": "redux",
+    "version": "5.0.0",
+    "published": "2023-12-04T04:15:09.772Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.0.0",
+    "published": "2023-12-04T04:48:26.355Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.0.1",
+    "published": "2023-12-04T20:37:28.407Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.0.2",
+    "published": "2023-12-05T20:56:58.242Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.0.3",
+    "published": "2023-12-10T15:12:11.621Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.0.4",
+    "published": "2023-12-11T15:07:34.347Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.21.0",
+    "published": "2023-12-13T21:34:16.818Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.21.1",
+    "published": "2023-12-21T17:00:03.440Z"
+  },
+  {
+    "name": "redux",
+    "version": "5.0.1",
+    "published": "2023-12-23T16:47:28.099Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.3",
+    "published": "2023-12-26T23:16:17.756Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.1.6",
+    "published": "2023-12-27T14:11:23.105Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.5.2",
+    "published": "2023-12-29T15:54:08.287Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.2.0",
+    "published": "2024-01-03T18:50:32.694Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.4",
+    "published": "2024-01-03T22:10:55.605Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.5",
+    "published": "2024-01-05T19:52:15.051Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.21.2",
+    "published": "2024-01-11T16:15:15.505Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.1.0",
+    "published": "2024-01-12T17:23:02.006Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.21.3",
+    "published": "2024-01-18T19:49:25.267Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.2.1",
+    "published": "2024-01-22T17:36:22.946Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.3.0",
+    "published": "2024-01-24T11:29:30.825Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.6",
+    "published": "2024-01-24T23:12:19.622Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.7",
+    "published": "2024-01-25T19:58:51.338Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.0",
+    "published": "2024-01-30T00:21:04.990Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.2.0",
+    "published": "2024-01-30T21:25:55.119Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.1",
+    "published": "2024-02-01T01:03:34.924Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.2.1",
+    "published": "2024-02-01T19:54:15.042Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.22.0",
+    "published": "2024-02-01T20:38:35.872Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.2",
+    "published": "2024-02-05T13:00:44.302Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.28.0",
+    "published": "2024-02-12T18:38:24.432Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.22.1",
+    "published": "2024-02-16T20:36:03.363Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.22.2",
+    "published": "2024-02-28T20:23:21.707Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.22.3",
+    "published": "2024-03-07T15:16:20.899Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.6.8",
+    "published": "2024-03-15T16:32:47.800Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.2.2",
+    "published": "2024-03-19T22:57:18.169Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.9.0",
+    "published": "2024-03-27T16:23:42.270Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.28.1",
+    "published": "2024-03-28T17:36:11.007Z"
+  },
+  {
+    "name": "react-alice-carousel",
+    "version": "2.9.1",
+    "published": "2024-04-06T15:44:49.275Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.3.0",
+    "published": "2024-04-08T14:10:38.024Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.0",
+    "published": "2024-04-10T15:21:48.533Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.1",
+    "published": "2024-04-11T17:06:42.588Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "14.3.1",
+    "published": "2024-04-11T17:14:53.834Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.2",
+    "published": "2024-04-13T09:24:02.838Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.1.1",
+    "published": "2024-04-14T16:32:35.674Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.3",
+    "published": "2024-04-23T10:24:21.929Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.23.0",
+    "published": "2024-04-23T15:29:23.215Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.4",
+    "published": "2024-04-23T15:35:22.054Z"
+  },
+  {
+    "name": "react",
+    "version": "18.3.0",
+    "published": "2024-04-25T16:45:54.126Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "18.3.0",
+    "published": "2024-04-25T16:46:07.950Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.5",
+    "published": "2024-04-26T15:32:06.506Z"
+  },
+  {
+    "name": "react",
+    "version": "18.3.1",
+    "published": "2024-04-26T16:42:26.496Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "18.3.1",
+    "published": "2024-04-26T16:42:49.931Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.6",
+    "published": "2024-05-01T18:32:35.929Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.1.2",
+    "published": "2024-05-02T02:13:13.265Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.3",
+    "published": "2024-05-03T06:22:49.822Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.4",
+    "published": "2024-05-03T15:13:46.721Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.5",
+    "published": "2024-05-03T18:32:13.437Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "15.0.7",
+    "published": "2024-05-07T11:10:17.977Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.23.1",
+    "published": "2024-05-10T17:59:09.559Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.0",
+    "published": "2024-05-19T20:25:03.615Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.1",
+    "published": "2024-05-20T13:32:52.757Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.2",
+    "published": "2024-05-21T16:58:04.163Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "16.0.0",
+    "published": "2024-06-03T13:55:27.444Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.6",
+    "published": "2024-06-10T23:27:43.370Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.24.0",
+    "published": "2024-06-24T18:45:31.520Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.24.1",
+    "published": "2024-07-03T12:03:24.154Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.25.0",
+    "published": "2024-07-16T13:14:30.606Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.25.1",
+    "published": "2024-07-17T16:26:10.405Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.7",
+    "published": "2024-07-22T19:35:48.255Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.4.8",
+    "published": "2024-07-23T12:24:00.580Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.26.0",
+    "published": "2024-08-01T13:14:36.722Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.3",
+    "published": "2024-08-01T16:16:13.901Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.4",
+    "published": "2024-08-13T19:33:11.369Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.26.1",
+    "published": "2024-08-15T15:24:47.078Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.5",
+    "published": "2024-08-23T13:32:37.145Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.5.0",
+    "published": "2024-08-23T19:47:46.321Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "16.0.1",
+    "published": "2024-08-29T09:30:39.733Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.6",
+    "published": "2024-08-30T19:56:49.611Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.7",
+    "published": "2024-08-31T22:02:08.862Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.26.2",
+    "published": "2024-09-09T15:14:09.623Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.27.0",
+    "published": "2024-10-11T18:07:51.090Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.6.0",
+    "published": "2024-10-16T16:28:13.518Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.6.1",
+    "published": "2024-10-16T18:47:33.342Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.6.2",
+    "published": "2024-10-17T16:07:16.355Z"
+  },
+  {
+    "name": "@testing-library/jest-dom",
+    "version": "6.6.3",
+    "published": "2024-10-31T15:11:25.079Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.28.0",
+    "published": "2024-11-06T23:57:25.059Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.29.0",
+    "published": "2024-11-21T13:08:09.760Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.0.0",
+    "published": "2024-11-22T07:42:40.862Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.0.1",
+    "published": "2024-11-22T14:44:08.139Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.8",
+    "published": "2024-11-25T21:13:58.456Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.0.2",
+    "published": "2024-12-03T02:16:24.659Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.7.9",
+    "published": "2024-12-04T07:38:16.833Z"
+  },
+  {
+    "name": "react",
+    "version": "19.0.0",
+    "published": "2024-12-05T18:10:21.804Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.0.0",
+    "published": "2024-12-05T18:10:30.516Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "16.1.0",
+    "published": "2024-12-05T20:02:45.770Z"
+  },
+  {
+    "name": "react-redux",
+    "version": "9.2.0",
+    "published": "2024-12-10T23:06:45.755Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.28.1",
+    "published": "2024-12-20T20:38:56.727Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.1.0",
+    "published": "2024-12-20T21:58:35.281Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.1.1",
+    "published": "2024-12-23T17:31:05.625Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.6.0",
+    "published": "2025-01-15T19:57:55.437Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "16.2.0",
+    "published": "2025-01-15T23:19:08.936Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.28.2",
+    "published": "2025-01-16T15:12:49.626Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.1.2",
+    "published": "2025-01-16T15:21:54.110Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.1.3",
+    "published": "2025-01-17T21:55:40.009Z"
+  },
+  {
+    "name": "@testing-library/user-event",
+    "version": "14.6.1",
+    "published": "2025-01-21T17:35:55.574Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.29.0",
+    "published": "2025-01-30T16:16:29.002Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.1.4",
+    "published": "2025-01-30T16:22:15.553Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.1.5",
+    "published": "2025-01-31T20:59:47.291Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.2.0",
+    "published": "2025-02-18T20:09:18.940Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.8.0",
+    "published": "2025-02-26T06:01:14.385Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.8.1",
+    "published": "2025-02-26T09:07:00.236Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.30.0",
+    "published": "2025-02-27T16:05:52.726Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.3.0",
+    "published": "2025-03-06T20:45:44.509Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.8.2",
+    "published": "2025-03-07T07:41:11.719Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.8.3",
+    "published": "2025-03-12T07:24:04.212Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.4.0",
+    "published": "2025-03-19T14:37:22.371Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.8.4",
+    "published": "2025-03-19T19:27:47.752Z"
+  },
+  {
+    "name": "axios",
+    "version": "0.30.0",
+    "published": "2025-03-26T17:55:30.023Z"
+  },
+  {
+    "name": "react",
+    "version": "19.1.0",
+    "published": "2025-03-28T19:59:42.053Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.1.0",
+    "published": "2025-03-28T19:59:53.229Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.4.1",
+    "published": "2025-03-28T21:00:09.180Z"
+  },
+  {
+    "name": "@testing-library/react",
+    "version": "16.3.0",
+    "published": "2025-04-02T17:03:38.791Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.5.0",
+    "published": "2025-04-04T18:19:57.827Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.5.1",
+    "published": "2025-04-17T15:27:14.132Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.5.2",
+    "published": "2025-04-24T14:52:31.369Z"
+  },
+  {
+    "name": "axios",
+    "version": "1.9.0",
+    "published": "2025-04-24T20:18:59.701Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.5.3",
+    "published": "2025-04-28T20:56:27.012Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.6.0",
+    "published": "2025-05-08T14:59:36.574Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "6.30.1",
+    "published": "2025-05-20T20:25:46.162Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.6.1",
+    "published": "2025-05-25T13:45:21.443Z"
+  },
+  {
+    "name": "react-router-dom",
+    "version": "7.6.2",
+    "published": "2025-06-03T20:43:04.668Z"
+  }
+]
