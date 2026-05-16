@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fd-book-club"
-  }
+    "default": "fd-book-club",
+    "fd-book-club": "fd-book-club"
+  },
+  "targets": {}
 }

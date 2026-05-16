@@ -35,7 +35,7 @@ class BookDetails extends Component {
     }
 
     fetchCover = (isbn) => {
-        axios.get(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`)
+        axios.get(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}&key=${process.env.REACT_APP_GOOGLE_BOOKS_API_KEY}`)
             .then((res) => {
                 if (res.data.items && res.data.items.length) {
                     this.setState({

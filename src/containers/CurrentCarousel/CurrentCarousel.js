@@ -38,7 +38,7 @@ class CurrentCarousel extends Component {
     fetchCovers(currentBooks) {
         const transformedCurrentBooks = [];
         currentBooks.map((book) => {
-            const googleBookInfo = `https://www.googleapis.com/books/v1/volumes?q=isbn:${book.isbn}`;
+            const googleBookInfo = `https://www.googleapis.com/books/v1/volumes?q=isbn:${book.isbn}&key=${process.env.REACT_APP_GOOGLE_BOOKS_API_KEY}`;
             return axios.get(googleBookInfo)
                 .then((res) => {
                     if (res.data.items && res.data.items.length) {
